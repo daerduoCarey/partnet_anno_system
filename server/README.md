@@ -36,3 +36,9 @@ Finally, run the following command to start the server.
 
         npm start
 
+### Instructions
+
+The system requires part hierarchical templates and the original ShapeNet meta-parts extracted from the KMZ files to normally function. 
+* We provide the 24 templates in PartNet under `public/part_hier_templates/`. If you want to annotate for a new category, please define your template and use the same format as the 24 categories. 
+* The original ShapeNet meta-parts are not officially released to the public. We provide 4 examples (2 beds and 2 chairs). Please contact [ShapeNet Web Master](mailto:shapenetwebmaster@gmail.com) to request the data. Basically, the ShapeNet models come with many groups and parts information that are made by the CAD designers. There is no guarantee for the part quality. Some parts are too coarse and many are too fine-grained. We take advantage of them to warm-start our annotations. If you work on your own data, you can consider 1) provide the meta-parts that exist in your CAD models; 2) treat the entire shape as one part.
+
