@@ -1,0 +1,42 @@
+{
+  "root": "keyboard",
+  "content": [
+    {
+      "name": "keyboard",
+      "label": "Keyboard",
+      "gloss": "a panel of keys that operate a computer or typewriter",
+      "parts": [
+          "cord",
+          "frame",
+          "key",
+          "tilt_leg"
+      ],
+      "default_part_num": [
+          0,
+          1,
+          0,
+          0
+      ]
+    },
+    {
+        "name": "cord",
+        "label": "Cord",
+        "gloss": "a cord or connector line that connects the keyboard to the computer"
+    },
+    {
+        "name": "frame",
+        "label": "Frame",
+        "gloss": "the main frame part for the keyboard"
+    },
+    {
+        "name": "key",
+        "label": "Key",
+        "gloss": "each indivial key"
+    },
+    {
+        "name": "tilt_leg",
+        "label": "Tilt Leg",
+        "gloss": "a short leg at the back of the keyboard that is used to tilt the keyboard up"
+    }
+  ]
+}

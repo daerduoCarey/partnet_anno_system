@@ -1,0 +1,627 @@
+{
+  "root": "chair",
+  "content": [
+    {
+      "name": "chair",
+      "label": "Sitting Furniture",
+      "gloss": "furniture that is designed for sitting on",
+      "parts": [
+        "chair_head",
+        "chair_back",
+        "chair_arm",
+        "chair_seat",
+        "chair_base",
+        "footrest"
+      ],
+      "default_part_num": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "chair_head",
+      "label": "Chair Head",
+      "gloss": "a support that you can rest your head on while sitting",
+      "parts": [
+        "headrest",
+        "head_connector",
+        "pillow"
+      ],
+      "default_part_num": [
+         1,
+         0,
+         0
+      ]
+    },
+    {
+      "name": "headrest",
+      "label": "Head Rest",
+      "gloss": "a surface part on chair head for a sitting human to rest the head on"
+    },
+    {
+      "name": "head_connector",
+      "label": "Head Connector",
+      "gloss": "a part that connects the chair head to the other part of chair, usually chair back"
+    },
+    {
+      "name": "chair_back",
+      "label": "Chair Back",
+      "gloss": "a support at the back of the chair that you can lean against while sitting",
+      "parts": [
+        "back_surface",
+        "back_support",
+        "back_frame",
+        "back_connector",
+        "pillow"
+      ]
+    },
+    {
+      "name": "back_surface",
+      "label": "Back Surface",
+      "gloss": "a surface part for a sitting person to lean the back on. It includes sub-parts such as back hard surface, back soft surface, back surface vertical bar, back surface horizontal bar, back surface slant bar, back surface complex decoration, etc.",
+      "parts": [
+        "back_hard_surface",
+        "back_soft_surface",
+        "back_surface_vertical_bar",
+        "back_surface_horizontal_bar",
+        "back_surface_slant_bar",
+        "back_complex_decoration"
+      ]
+    },
+    {
+      "name": "back_frame",
+      "label": "Back Frame",
+      "gloss": "a framing part to outline the backbone of a chair back. It includes sub-parts such as back framing vertical bars, back framing horizontal bars, back framing slant bars, back holistic frames, etc.",
+      "parts": [
+        "back_frame_vertical_bar",
+        "back_frame_horizontal_bar",
+        "back_frame_slant_bar",
+        "back_holistic_frame"
+      ]
+    },
+    {
+      "name": "back_hard_surface",
+      "label": "Back Hard Surface",
+      "gloss": "a front surface part on chair back for a sitting human to lean the back on. It is usually made of wood/metal/plastic or other hard materials."
+    },
+    {
+      "name": "back_soft_surface",
+      "label": "Back Soft Surface",
+      "gloss": "a front surface part on chair back for a sitting human to lean the back on. It is usually made of leather/fabric/soft stuffs."
+    },
+    {
+      "name": "back_support",
+      "label": "Back Support",
+      "gloss": "a part behind the back surface that supports the back surface. It is different from back frame in that the back support is for supporting the back surface while the back frame is for framing the backbone/outline of a chair back."
+    },
+    {
+      "name": "back_holistic_frame",
+      "label": "Back Holistic Frame",
+      "gloss": "a framing structure for chair back that is usually curved, continuous and indivisible into smaller bars/strips"
+    },
+    {
+      "name": "back_surface_vertical_bar",
+      "label": "Back Surface Vertical Bar",
+      "gloss": "a near-vertical bar/strip like part that help form the back surface"
+    },
+    {
+      "name": "back_surface_horizontal_bar",
+      "label": "Back Surface Horizontal Bar",
+      "gloss": "a near-horizontal bar/strip like part that help form the back surface"
+    },
+    {
+      "name": "back_surface_slant_bar",
+      "label": "Back Surface Slant Bar",
+      "gloss": "a slant bar/strip like part that help form the back surface. The angle between a slant bar and the ground should be around 30~60 degree. Otherwise, it should be annotated as either vertical or horizontal bars."
+    },
+    {
+      "name": "back_frame_vertical_bar",
+      "label": "Back Frame Vertical Bar",
+      "gloss": "a near-vertical bar/strip like part that help form the back frame"
+    },
+    {
+      "name": "back_frame_horizontal_bar",
+      "label": "Back Frame Horizontal Bar",
+      "gloss": "a near-horizontal bar/strip like part that help form the back frame"
+    },
+    {
+      "name": "back_frame_slant_bar",
+      "label": "Back Frame Slant Bar",
+      "gloss": "a slant bar/strip like part that help form the back frame. The angle between a slant bar and the ground should be around 30~60 degree. Otherwise, it should be annotated as either vertical or horizontal bars."
+    },
+    {
+      "name": "back_complex_decoration",
+      "label": "Back Complex Decoration",
+      "gloss": "a complex decorative part for chair back that does not belong to simple bars/strips, frames or surfaces. It usually comes with some complicated geometry and artistic design for decorative purposes."
+    },
+    {
+      "name": "back_connector",
+      "label": "Back Connector",
+      "gloss": "a part that connects the chair back to the other part of chair, usually chair seat or chair base"
+    },
+    {
+      "name": "chair_arm",
+      "label": "Chair Arm",
+      "gloss": "the part of an armchair or sofa that supports the elbow and forearm of a seated person",
+      "parts": [
+        "armrest_hard_surface",
+        "armrest_soft_surface",
+        "arm_horizontal_bar",
+        "arm_vertical_bar",
+        "arm_slant_bar",
+        "arm_holistic_frame",
+        "arm_sofa_style",
+        "arm_writing_table",
+        "arm_connector"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armrest_hard_surface",
+      "label": "Armrest Hard Surface",
+      "gloss": "a part that supports your elbow and forearm, usually made of wood/metal/plastic or other hard materials"
+    },
+    {
+      "name": "armrest_soft_surface",
+      "label": "Armrest Soft Surface",
+      "gloss": "a part that supports your elbow and forearm, usually made of leather/fabric/airbag and stuffed with soft material"
+    },
+    {
+      "name": "arm_horizontal_bar",
+      "label": "Arm Horizontal Bar",
+      "gloss": "a near-horizontal bar/strip like part that supports the armrest. It usually connects to the chair back to support the armrest."
+    },
+    {
+      "name": "arm_vertical_bar",
+      "label": "Arm Vertical Bar",
+      "gloss": "a near-vertical bar/strip like part that supports the armrest. It usually connects to the chair seat/base to support the armrest."
+    },
+    {
+      "name": "arm_slant_bar",
+      "label": "Arm Slant Bar",
+      "gloss": "a slant bar/strip like part that composes the arm surface/support. The angle between a slant bar and the ground should be around 30~60 degree. Otherwise, the part should be annotated as either vertical or horizontal bar."
+    },
+    {
+      "name": "arm_holistic_frame",
+      "label": "Arm Holistic Frame",
+      "gloss": "a continuous framing and supporting part that supports the armrest.  It is difficult for this part to be further divided into smaller armrest and vertical bars."
+    },
+    {
+      "name": "arm_sofa_style",
+      "label": "Sofa-style Arm",
+      "gloss": "a big chunk of geometry that supports human's arm and is usually connected to chair back or chair seat seamlessly. It is commonly used for sofas and some bean chairs. You can think of the part as an imaginary part from a continuous single part that acts as chair back, seat and arms."
+    },
+    {
+      "name": "arm_writing_table",
+      "label": "Arm Writing Table",
+      "gloss": "an arm of a tablet-armed chair; widened to provide a writing surface"
+    },
+    {
+      "name": "arm_connector",
+      "label": "Arm Connector",
+      "gloss": "a part that connects the chair arm to the other part of chair, usually chair seat or chair base"
+    },
+    {
+      "name": "chair_seat",
+      "label": "Chair Seat",
+      "gloss": "any support where you can sit (especially the part of a chair or bench etc. on which you sit)",
+      "parts": [
+        "seat_surface",
+        "seat_support",
+        "seat_frame",
+        "pillow"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "seat_surface",
+      "label": "Seat Surface",
+      "gloss": "a top surface part on a chair seat for a person to sit on. It includes several sub-parts such as seat hard surface, seat soft surface, seat surface vertical bar, seat surface horizontal bar, seat surface slant bar, etc.",
+      "parts": [
+        "seat_hard_surface",
+        "seat_soft_surface",
+        "seat_surface_vertical_bar",
+        "seat_surface_horizontal_bar",
+        "seat_surface_slant_bar"
+      ]
+    },
+    {
+      "name": "seat_support",
+      "label": "Seat Support",
+      "gloss": "a big chunk of geometry under the seat surface that supports the seat surface. It usually exists for a sofa chair. This is different from base connector, which is a part that connects the seat and the base."
+    },
+    {
+      "name": "seat_frame",
+      "label": "Seat Frame",
+      "gloss": "a framing structure to construct the backbone/frame of a chair seat. It includes several sub-parts such as frame vertical bars, frame horizontal bars, frame slant bars, seat holistic frame, etc.",
+      "parts": [
+        "seat_frame_vertical_bar",
+        "seat_frame_horizontal_bar",
+        "seat_frame_slant_bar",
+        "seat_holistic_frame"
+      ]
+    },
+    {
+      "name": "seat_hard_surface",
+      "label": "Seat Hard Surface",
+      "gloss": "a top surface part on chair seat for a sitting human to sit on. It is usually made of wood/metal/plastic or other hard materials."
+    },
+    {
+      "name": "seat_soft_surface",
+      "label": "Seat Soft Surface",
+      "gloss": "a top surface part on chair seat for a sitting human to sit on. It is usually made of leather/fabric/soft stuffs."
+    },
+    {
+      "name": "seat_surface_vertical_bar",
+      "label": "Seat Surface Vertical Bar",
+      "gloss": "a near-vertical bar/strip like part that composes the seat surface. A bar is considered as vertical if it is close to perpendicular to chair back."
+    },
+    {
+      "name": "seat_surface_horizontal_bar",
+      "label": "Seat Surface Horizontal Bar",
+      "gloss": "a near-horizontal bar/strip like part that composes the seat surface. A bar is considered as horizontal if it is close to parallel to chair back."
+    },
+    {
+      "name": "seat_surface_slant_bar",
+      "label": "Seat Surface Slant Bar",
+      "gloss": "a slant bar/strip like part that composes the seat surface. The angle between a slant bar and the chair back should be around 30~60 degree. Otherwise, the part should be annotated as either vertical or horizontal bars."
+    },
+    {
+      "name": "seat_frame_vertical_bar",
+      "label": "Seat Frame Vertical Bar",
+      "gloss": "a near-vertical bar/strip like part that composes the seat frame. A bar is considered as vertical if it is close to perpendicular to chair back."
+    },
+    {
+      "name": "seat_frame_horizontal_bar",
+      "label": "Seat Frame Horizontal Bar",
+      "gloss": "a near-horizontal bar/strip like part that composes the seat frame. A bar is considered as horizontal if it is close to parallel to chair back."
+    },
+    {
+      "name": "seat_frame_slant_bar",
+      "label": "Seat Frame Slant Bar",
+      "gloss": "a slant bar/strip like part that composes the seat frame. The angle between a slant bar and the chair back should be around 30~60 degree. Otherwise, the part should be annotated as either vertical or horizontal bars."
+    },
+    {
+      "name": "seat_holistic_frame",
+      "label": "Seat Holistic Frame",
+      "gloss": "a framing structure for chair seat that is usually curved, continuous and indivisible into smaller bars/strips"
+    },
+    {
+      "name": "pillow",
+      "label": "Pillow",
+      "gloss": "an additional/removable cushion to support the head of a sleeping person, or to support the back or hip of a sitting person. Common types of pillow include rectangular pillow, circular pillow, donut pillow, etc."
+    },
+    {
+      "name": "footrest",
+      "label": "Footrest",
+      "gloss": "a object (often separate) to support the leg and foot of a sitting person while they are seating in the main chair.  Sometimes also called an ottoman",
+      "parts": [
+        "chair_seat",
+        "chair_base",
+        "footrest_connector"
+      ]
+    },
+    {
+      "name": "footrest_connector",
+      "label": "Footrest Connector",
+      "gloss": "a part that connects the footrest to the other parts of chair, usually the chair seat or chair base"
+    },
+    {
+      "name": "chair_base",
+      "label": "Chair Base",
+      "gloss": "a support or foundation for chair. It includes but is not limited to leg base, swivel base, pedestal base, foot base, etc.",
+      "subtypes": [
+        "regular_leg_base",
+        "star_leg_base",
+        "pedestal_base",
+        "surface_base",
+        "foot_base"
+      ],
+      "default_subtype": "regular_leg_base"
+    },
+    {
+      "name": "regular_leg_base",
+      "label": "Regular Leg Base",
+      "gloss": "a chair base that is composed of several vertical leg-like supporting sub-parts, possibly with several connections between legs, and contacts the ground by the legs, some horizontal bars or the foot/caster structure on the legs",
+      "parts": [
+        "leg",
+        "foot",
+        "caster",
+        "bar_stretcher",
+        "circular_stretcher",
+        "runner",
+        "rocker",
+        "seat_connector"
+      ],
+      "default_part_num": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "bar_stretcher",
+      "label": "Bar Stretcher",
+      "gloss": "a supporting part joining the legs that is of bar/strip like shape"
+    },
+    {
+      "name": "circular_stretcher",
+      "label": "Circular Stretcher",
+      "gloss": "a supporting part joining the legs that is of circular shape"
+    },
+    {
+      "name": "runner",
+      "label": "Runner",
+      "gloss": "horizontal part that connects the end of legs and contacts the ground"
+    },
+    {
+      "name": "rocker",
+      "label": "Rocker",
+      "gloss": "a curved support that permits the supported object to rock to and from"
+    },
+    {
+      "name": "seat_connector",
+      "label": "Seat Connector",
+      "gloss": "a part that connects the chair base to the chair seat"
+    },
+    {
+      "name": "star_leg_base",
+      "label": "Star-shape Leg Base",
+      "gloss": "a chair base that includes a star-shape leg structure. Each leg of the star leg structure is near-horizontal to the ground plane.",
+      "parts": [
+        "central_support",
+        "mechanical_control",
+        "footrest_ring",
+        "star_leg_set",
+        "seat_connector"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "central_support",
+      "label": "Central Support",
+      "gloss": "a central supporting part that connects the chair seat and the chair legs/pedestal bases. It often occurs in office chairs and pedestal chairs. Please annotate each central supports individually if there are many."
+    },
+    {
+      "name": "mechanical_control",
+      "label": "Mechanical Control",
+      "gloss": "a complex mechanical control part that is often used to lift the chair central cylinder or to swivel the chair. Just label one holistic part for each control unit. There is no need to label the mechanical details. Please use the option other to label the part we do not include in the list.",
+      "parts": [
+          "lever",
+          "knob",
+          "button",
+          "mounting_plate"
+      ],
+      "default_part_num": [
+          1,
+          1,
+          0,
+          1
+      ]
+    },
+    {
+        "name": "lever",
+        "label": "Lever",
+        "gloss": "a rigid bar pivoted about a fulcrum"
+    },
+    {
+        "name": "knob",
+        "label": "Knob",
+        "gloss": "a round handle"
+    },
+    {
+        "name": "button",
+        "label": "Button",
+        "gloss": "an electrical switch operated by pressing"
+    },
+    {
+        "name": "mounting_plate",
+        "label": "Mounting Plane",
+        "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "footrest_ring",
+      "label": "Footrest Ring",
+      "gloss": "a ring-shape part that is designed to support human feet, mounted on the central supports and on top of the chair legs",
+      "parts": [
+         "footrest_bar",
+         "footrest_circular"
+      ],
+      "default_part_num": [
+         1,
+         4
+      ]
+    },
+    {
+      "name": "footrest_bar",
+      "label": "Footrest Bar",
+      "gloss": "a bar-shape part on footrest"
+    },
+    {
+      "name": "footrest_circular",
+      "label": "Footrest Circle",
+      "gloss": "a circular part on footrest"
+    },
+    {
+      "name": "pedestal_base",
+      "label": "Pedestal Base",
+      "gloss": "a chair base that includes a big pedestal part that contacts with the ground",
+      "parts": [
+        "central_support",
+        "mechanical_control",
+        "footrest_ring",
+        "pedestal",
+        "seat_connector"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "pedestal",
+      "label": "Pedestal",
+      "gloss": "a big chunk of geometry that contacts the ground to stablize the chair"
+    },
+    {
+      "name": "foot_base",
+      "label": "Foot Base",
+      "gloss": "a chair base that contacts the ground via foots/casters. There is no long vertical leg in the base.",
+      "parts": [
+        "short_leg",
+        "foot",
+        "caster",
+        "seat_connector"
+      ],
+      "default_part_num": [
+        0,
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "short_leg",
+      "label": "Short Leg",
+      "gloss": "a very short leg that connects the chair seat and the chair foot/wheels"
+    },
+    {
+      "name": "surface_base",
+      "label": "Surface Base",
+      "gloss": "a chair base that contacts the ground with some big area. There could be some vertical leg parts.",
+      "parts": [
+        "ground_surface",
+        "side_surface",
+        "leg",
+        "foot",
+        "caster",
+        "bar_stretcher",
+        "circular_stretcher",
+        "seat_connector"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ground_surface",
+      "label": "Ground Surface",
+      "gloss": "a board-like part that touches the ground totally"
+    },
+    {
+      "name": "side_surface",
+      "label": "Side Surface",
+      "gloss": "a board-like part that supports the chair"
+    },
+    {
+      "name": "star_leg_set",
+      "label": "Star-shape Leg Set",
+      "gloss": "a star shape structure that contains many legs and the correlated foots or casters",
+      "parts": [
+        "leg",
+        "foot",
+        "caster"
+      ],
+      "default_part_num": [
+        5,
+        0,
+        5
+      ]
+    },
+    {
+      "name": "leg",
+      "label": "Leg",
+      "gloss": "one of the supports for a piece of furniture"
+    },
+    {
+      "name": "foot",
+      "label": "Foot",
+      "gloss": "a support resembling a pedal extremity"
+    },
+    {
+      "name": "caster",
+      "label": "Wheel Assembly",
+      "gloss": "a pivoting roller attached to the bottom of furniture or trucks or portable machines to make them movable",
+      "parts": [
+        "caster_yoke",
+        "caster_stem",
+        "caster_mounting_plate",
+        "wheel",
+        "brake"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "brake",
+      "label": "Brake",
+      "gloss": "a restraint used to slow or stop a vehicle"
+    },
+    {
+      "name": "caster_yoke",
+      "label": "Caster Yoke",
+      "gloss": "forked part for connecting wheel to mounting plate"
+    },
+    {
+      "name": "caster_stem",
+      "label": "Caster Stem",
+      "gloss": "post part of caster rig"
+    },
+    {
+      "name": "caster_mounting_plate",
+      "label": "Mounting Plate",
+      "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "wheel",
+      "label": "Wheel",
+      "gloss": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)"
+    }
+  ]
+}

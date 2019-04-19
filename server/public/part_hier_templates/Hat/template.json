@@ -1,0 +1,78 @@
+{
+  "root": "hat",
+  "content": [
+    {
+      "name": "hat",
+      "label": "Hat/Cap",
+      "gloss": "a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform",
+      "subtypes": ["normal_hat", "cap"],
+      "default_subtype": "normal_hat"
+    },
+    {
+      "name": "normal_hat",
+      "label": "Normal Hat",
+      "gloss": "not a cap",
+      "parts": ["crown", "band", "brim", "button", "decoration"],
+      "default_part_num": [1, 0, 1, 0, 0, 0]
+    },
+    {
+        "name": "crown",
+        "label": "Crown",
+        "gloss": "the top part of the hat that covers your head"
+    },
+    {
+        "name": "band",
+        "label": "Band",
+        "gloss": "a strap or cord on the hat, usually for decoration or frame the shape of the hat"
+    },
+    {
+        "name": "brim",
+        "label": "Brim",
+        "gloss": "the peripheral round brim"
+    },
+    {
+        "name": "decoration",
+        "label": "Decoration",
+        "gloss": "other decorative parts, such as a star, or a toy"
+    },
+    {
+      "name": "cap",
+      "label": "Cap",
+      "gloss": "a kind of soft, flat hat without a brim, and sometimes having a visor",
+      "parts": [
+          "bill",
+          "panel",
+          "button",
+          "strap",
+          "decoration"
+      ],
+      "default_part_num": [
+          1,
+          1,
+          0,
+          0,
+          0
+      ]
+    },
+    {
+        "name": "bill",
+        "label": "Bill",
+        "gloss": "a stiff brim at the front of a cap"
+    },
+    {
+        "name": "panel",
+        "label": "Panel",
+        "gloss": "a top part of cap where you wear cap on your head"
+    },
+    {
+        "name": "button",
+        "label": "Button",
+        "gloss": "a button on top of the panel"
+    },
+    {
+        "name": "strap",
+        "label": "Strap",
+        "gloss": "a strap at the back of a cap that is used to adjust the size of the cap"
+    }
+  ]
+}

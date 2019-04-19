@@ -1,0 +1,114 @@
+{
+  "root": "laptop",
+  "content": [
+    {
+      "name": "laptop",
+      "label": "Laptop",
+      "gloss": "a portable laptop computer",
+      "parts": [
+        "screen_side",
+        "base_side",
+        "connector"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "screen_side",
+      "label": "Screen Side",
+      "gloss": "the top side with computer screen",
+      "parts": [
+        "screen",
+        "screen_frame",
+        "camera"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "base_side",
+      "label": "Base Side",
+      "gloss": "the base side with keyboard and other core components",
+      "parts": [
+        "keyboard",
+        "touchpad",
+        "base_frame"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "connector",
+      "label": "Connector",
+      "gloss": "connector between the screen side and base side",
+      "parts": [
+        "shaft"
+      ],
+      "default_part_num": [
+        1
+      ]
+    },
+    {
+      "name": "screen",
+      "label": "Screen",
+      "gloss": "screen of the computer"
+    },
+    {
+      "name": "base_frame",
+      "label": "Base Frame",
+      "gloss": "the main base frame"
+    },
+    {
+      "name": "screen_frame",
+      "label": "Screen Frame",
+      "gloss": "frame of the screen of the computer"
+    },
+    {
+      "name": "camera",
+      "label": "Camera",
+      "gloss": "camera on the top of the screen"
+    },
+    {
+      "name": "keyboard",
+      "label": "Keyboard",
+      "gloss": "a keyboard for typing"
+    },
+    {
+      "name": "touchpad",
+      "label": "Touchpad",
+      "gloss": "a computer input device in the form of a small panel containing different touch-sensitive areas",
+      "parts": [
+        "touchpad_surface",
+        "button"
+      ],
+      "default_part_num": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "shaft",
+      "label": "Shaft",
+      "gloss": "shaft part"
+    },
+    {
+      "name": "touchpad_surface",
+      "label": "Touchpad Surface",
+      "gloss": "the surface of the touchpad"
+    },
+    {
+      "name": "button",
+      "label": "Button",
+      "gloss": "left or right button of the touchpad"
+    }
+  ]
+}

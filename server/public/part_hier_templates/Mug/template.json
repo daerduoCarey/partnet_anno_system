@@ -1,0 +1,64 @@
+{
+  "root": "mug",
+  "content": [
+    {
+      "name": "mug",
+      "label": "Mug",
+      "gloss": "a large cup, typically cylindrical with a handle and used without a saucer",
+      "parts": [
+        "body",
+        "handle",
+        "lid",
+        "stir_bar",
+        "containing_things",
+        "supporting_plate"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "body",
+      "label": "Body",
+      "gloss": "main part / body of the mug"
+    },
+    {
+      "name": "handle",
+      "label": "Handle",
+      "gloss": "handle of the mug"
+    },
+    {
+      "name": "lid",
+      "label": "Lid",
+      "gloss": "lid on the top of the mug"
+    },
+    {
+      "name": "stir_bar",
+      "label": "Stir Bar",
+      "gloss": "(potential) stir bar in the mug"
+    },
+    {
+      "name": "containing_things",
+      "label": "Stuffs Contained",
+      "gloss": "(potential) containing stuffs in the mug",
+      "subtypes": [
+        "liquid"
+      ]
+    },
+    {
+      "name": "supporting_plate",
+      "label": "Supporting Plate",
+      "gloss": "(potential) supporting plate of the mug"
+    },
+    {
+      "name": "liquid",
+      "label": "Liquid",
+      "gloss": "liquid contained in the mug"
+    }
+  ]
+}

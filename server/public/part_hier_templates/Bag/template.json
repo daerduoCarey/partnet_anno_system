@@ -1,0 +1,206 @@
+{
+  "root": "bag",
+  "content": [
+    {
+      "name": "bag",
+      "label": "Bag",
+      "gloss": "bags, including backpack, suitcase, luggage, hand/shoulder bag, paper/plastic bag, etc.",
+      "subtypes": [
+        "backpack",
+        "briefcase",
+        "luggage",
+        "hand_or_shoulder_bag",
+        "paper_bag",
+        "plastic_bag"
+      ]
+    },
+    {
+      "name": "backpack",
+      "label": "Backpack",
+      "gloss": "a bag with shoulder straps that allow it to be carried on one's back",
+      "parts": [
+          "shoulder_strap",
+          "handle",
+          "zipper",
+          "bag_body"
+      ],
+      "default_part_num": [
+          2,
+          1,
+          0,
+          1
+      ]
+    },
+    {
+      "name": "briefcase",
+      "label": "Briefcase",
+      "gloss": "a case with a handle and a hinged lid, used for carrying clothes and other personal possessions",
+      "parts": [
+          "handle",
+          "buckle",
+          "zipper",
+          "bag_body"
+      ],
+      "default_part_num": [
+          1,
+          0,
+          0,
+          1
+      ]
+    },
+    {
+      "name": "luggage",
+      "label": "Luggage",
+      "gloss": "suitcases or other bags in which to pack personal belongings for traveling",
+      "parts": [
+          "pull_out_handle",
+          "handle",
+          "caster",
+          "zipper",
+          "bag_body"
+      ],
+      "default_part_num": [
+          1,
+          0,
+          0,
+          0,
+          1
+      ]
+    },
+    {
+      "name": "hand_or_shoulder_bag",
+      "label": "Hand or Shoulder Bag",
+      "gloss": "hand bag or shoulder bag",
+      "parts": [
+          "handle",
+          "shoulder_strap",
+          "zipper",
+          "bag_body"
+      ],
+      "default_part_num": [
+          1,
+          0,
+          0,
+          1
+      ]
+    },
+    {
+      "name": "paper_bag",
+      "label": "Paper Bag",
+      "gloss": "a bag made of paper",
+      "parts": [
+          "handle",
+          "bag_body"
+      ],
+      "default_part_num": [
+          2,
+          1
+      ]
+    },
+    {
+      "name": "plastic_bag",
+      "label": "Plastic Bag",
+      "gloss": "a bag made of plastic",
+      "parts": [
+          "handle",
+          "bag_body"
+      ],
+      "default_part_num": [
+          2,
+          1
+      ]
+    },
+    {
+      "name": "handle",
+      "label": "Handle",
+      "gloss": "a handle that attaches to the bag and is designed for human to grasp by hand"
+    },
+    {
+      "name": "shoulder_strap",
+      "label": "Shoulder Strap",
+      "gloss": "a strap that is used for human to carry the bag on shoulder"
+    },
+    {
+      "name": "bag_body",
+      "label": "Bag Body",
+      "gloss": "the main bag body part, a container that contains stuffs"
+    },
+    {
+      "name": "buckle",
+      "label": "Buckle",
+      "gloss": "a flat, typically rectangular frame with a hinged pin, used for joining the ends of a belt or strap"
+    },
+    {
+      "name": "zipper",
+      "label": "Zipper",
+      "gloss": "a device consisting of two flexible strips of metal or plastic with interlocking projections closed or opened by pulling a slide along them, used to fasten garments, bags, and other items"
+    },
+    {
+      "name": "pull_out_handle",
+      "label": "Pull-out Handle",
+      "gloss": "a handle that can pull out to fit human's height while pulling the luggage",
+      "parts": [
+          "grip",
+          "bar"
+      ],
+      "default_part_num": [
+          1,
+          2
+      ]
+    },
+    {
+        "name": "grip",
+        "label": "Grip",
+        "gloss": "a firm hold; a tight grasp or clasp"
+    },
+    {
+        "name": "bar",
+        "label": "Bar",
+        "gloss": "a long rod or rigid piece of wood, metal, or similar material"
+    },
+    {
+      "name": "caster",
+      "label": "Wheel Assembly",
+      "gloss": "a pivoting roller attached to the bottom of furniture or trucks or portable machines to make them movable",
+      "parts": [
+        "caster_yoke",
+        "caster_stem",
+        "caster_mounting_plate",
+        "wheel",
+        "brake"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "brake",
+      "label": "Brake",
+      "gloss": "a restraint used to slow or stop a vehicle"
+    },
+    {
+      "name": "caster_yoke",
+      "label": "Caster Yoke",
+      "gloss": "forked part for connecting wheel to mounting plate"
+    },
+    {
+      "name": "caster_stem",
+      "label": "Caster Stem",
+      "gloss": "post part of caster rig"
+    },
+    {
+      "name": "caster_mounting_plate",
+      "label": "Mounting Plate",
+      "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "wheel",
+      "label": "Wheel",
+      "gloss": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)"
+    }
+  ]
+}

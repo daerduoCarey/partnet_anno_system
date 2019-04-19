@@ -1,0 +1,117 @@
+{
+  "root": "bottle",
+  "content": [
+    {
+      "name": "bottle",
+      "label": "Bottle",
+      "gloss": "a container that can contain water",
+      "subtypes": [
+        "normal_bottle",
+        "jug"
+      ]
+    },
+    {
+      "name": "normal_bottle",
+      "label": "Normal Bottle",
+      "gloss": "a container that can contain water (normal type )",
+      "parts": [
+        "body",
+        "lid_handle",
+        "body_handle",
+        "neck",
+        "closure",
+        "lid",
+        "mouth",
+        "containing_things"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "jug",
+      "label": "Jug",
+      "gloss": "a large container for liquids, with a narrow mouth and typically a stopper or cap",
+      "parts": [
+        "mouth",
+        "body",
+        "bottom",
+        "lid_handle",
+        "body_handle",
+        "lid",
+        "containing_things"
+      ],
+      "default_part_num": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "body",
+      "label": "Body",
+      "gloss": "the main part of the bottle"
+    },
+    {
+      "name": "lid",
+      "label": "Lid",
+      "gloss": "a removable or hinged cover for the top of a container"
+    },
+    {
+      "name": "lid_handle",
+      "label": "Lid Handle",
+      "gloss": "the part on lid by which a thing is held, carried, or controlled"
+    },
+    {
+      "name": "body_handle",
+      "label": "Body Handle",
+      "gloss": "the part of the bottle/jug by which a thing is held, carried, or controlled"
+    },
+    {
+      "name": "neck",
+      "label": "Neck",
+      "gloss": "neck part below the closure or sloping part between neck and body"
+    },
+    {
+      "name": "closure",
+      "label": "Closure",
+      "gloss": "a cork or screwcap on the top of the bottle"
+    },
+    {
+      "name": "bottom",
+      "label": "Bottom",
+      "gloss": "bottom part of the jug"
+    },
+    {
+      "name": "containing_things",
+      "label": "Stuff contained",
+      "gloss": "the containing things, such as liquid, in the bottle",
+      "subtypes": [
+        "liquid"
+      ]
+    },
+    {
+      "name": "mouth",
+      "label": "Mouth",
+      "gloss": "a mouth-like part through which the water or containing liquid can be poured or squeezed out"
+    },
+    {
+      "name": "liquid",
+      "label": "Liquid",
+      "gloss": "liquid contained in the bottle"
+    }
+  ]
+}

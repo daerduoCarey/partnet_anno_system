@@ -1,0 +1,108 @@
+{
+  "root": "cutting_instrument",
+  "content": [
+    {
+      "name": "cutting_instrument",
+      "label": "Cutting Instrument",
+      "gloss": "an instrument composed of a blade fixed into a handle, used for cutting or as a weapon",
+      "subtypes": [
+          "dagger",
+          "knife"
+      ],
+      "default_subtype": "knife"
+    },
+    {
+      "name": "knife",
+      "label": "Knife",
+      "gloss": "an instrument composed of a blade fixed into a handle, used for cutting",
+      "parts": [
+          "blade_side",
+          "handle_side"
+      ],
+      "default_part_num": [
+          1,
+          1
+      ]
+    },
+    {
+      "name": "blade_side",
+      "label": "Blade Side",
+      "gloss": "the blade side of a knife/dagger that is usually made of steel and is used to cut or kill things",
+      "parts": [
+          "blade",
+          "bolster",
+          "scabbard"
+      ],
+      "default_part_num": [
+          1,
+          1,
+          0
+      ]
+    },
+    {
+      "name": "handle_side",
+      "label": "Handle Side",
+      "gloss": "the handle side of a knife/dagger that is usually made of wood. plastic and is used to grasp the knife/dagger",
+      "parts": [
+          "guard",
+          "handle",
+          "butt",
+          "fingerhole"
+      ],
+      "default_part_num": [
+          0,
+          1,
+          0,
+          0
+      ]
+    },
+    {
+      "name": "dagger",
+      "label": "Dagger",
+      "gloss": "a knife with a pointed and edged blade, used as a weapon",
+      "parts": [
+          "blade_side",
+          "handle_side"
+      ],
+      "default_part_num": [
+          1,
+          1
+      ]
+    },
+    {
+        "name": "handle",
+        "label": "Handle",
+        "gloss": "a handle where human grasp and hold the knife"
+    },
+    {
+        "name": "guard",
+        "label": "Guard",
+        "gloss": "a part at the very beginning of a knife handle that stops your fingers from sliding forward onto the knife blade and cutting edge"
+    },
+    {
+        "name": "butt",
+        "label": "Butt",
+        "gloss": "a clear end segment for the knife/dagger handle that stops the graspable region"
+    },
+    {
+        "name": "fingerhole",
+        "label": "Fingerhole",
+        "gloss": "a hole for figure to grasp through"
+    },
+    {
+        "name": "blade",
+        "label": "Blade",
+        "gloss": "a flat cutting edge of a dagger or a knife"
+    },
+    {
+        "name": "scabbard",
+        "label": "Scabbard",
+        "gloss": "a sheath for holding a sword, knife, or other large blade"
+    },
+    {
+        "name": "bolster",
+        "label": "Bolster",
+        "gloss": "a thick junction between the handle and the knife blade which provides a smooth transition from the blade to the handle"
+    }
+  ]
+}

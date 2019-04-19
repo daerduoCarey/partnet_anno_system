@@ -1,0 +1,305 @@
+{
+  "root": "refrigerator",
+  "content": [
+    {
+      "name": "refrigerator",
+      "label": "Refrigerator",
+      "gloss": "an appliance or compartment that is artificially kept cool and used to store food and drink",
+      "parts": [
+          "body",
+          "base",
+          "accessories"
+      ],
+      "default_part_num": [
+          1,
+          0,
+          0
+      ]
+    },
+    {
+        "name": "body",
+        "label": "Body",
+        "gloss": "the main body part for a refrigerator, excluding the base and cords, etc.",
+        "parts": [
+            "frame",
+            "body_interior",
+            "door",
+            "drawer",
+            "side_controls"
+        ],
+        "default_part_num": [
+            1,
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "base",
+        "label": "Base",
+        "gloss": "the base support for the refrigerator",
+        "subtypes": [
+            "foot_base",
+            "surface_base"
+        ],
+        "default_subtype": "foot_base"
+    },
+    {
+        "name": "foot_base",
+        "label": "Foot Base",
+        "gloss": "the foot base for refrigerator that touchs the ground",
+        "parts": [
+            "foot",
+            "caster",
+	    "surface"
+        ],
+        "default_part_num": [
+            4,
+            0,
+	    0
+        ]
+    },
+    {
+        "name": "surface_base",
+        "label": "Surface Base",
+        "gloss": "surface style base (or directly contacting with the ground)",
+        "parts": [
+            "surface"
+        ],
+        "default_part_num": [
+            1
+        ]
+    },
+    {
+        "name": "accessories",
+        "label": "Accessories",
+        "gloss": "all accessories parts, including cord, etc.",
+        "parts": [
+            "cord"
+        ],
+        "default_part_num": [
+            0
+        ]
+    },
+    {
+        "name": "body_interior",
+        "label": "Body Interior",
+        "gloss": "a set of components inside the refrigerator box, including the shelf",
+        "parts": [
+            "shelf"
+        ],
+        "default_part_num": [
+            0,
+            0
+        ]
+    },
+    {
+        "name": "door",
+        "label": "Door",
+        "gloss": "the refrigerator door which can be open and food can be put through the door",
+        "parts": [
+            "door_frame",
+            "handle",
+            "glass",
+            "hinge"
+        ],
+        "default_part_num": [
+            1,
+            1,
+            0,
+            0
+        ]
+    },
+    {
+      "name": "hinge",
+      "label": "Hinge",
+      "gloss": "a joint that holds two parts together so that one can swing relative to the other"
+    },
+    {
+        "name": "side_controls",
+        "label": "Side Controls",
+        "gloss": "a set of controls at the side of refrigerator, including buttons and display panels, etc.",
+        "parts": [
+            "control_button",
+            "display_panel",
+            "indicator",
+            "control_panel"
+        ],
+        "default_part_num": [
+            1,
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "name": "indicator",
+        "label": "Indicator",
+        "gloss": "indicator of the status on the panel"
+    },
+    {
+        "name": "cord",
+        "label": "Cord",
+        "gloss": "a cord or connector line that connects the refrigerator to power"
+    },
+    {
+        "name": "handle",
+        "label": "Handle",
+        "gloss": "a handle that people can use to pull open and off a door"
+    },
+    {
+        "name": "foot",
+        "label": "Foot",
+        "gloss": "a short leg or foot at the very bottom of a refrigerator that touchs the ground"
+    },
+    {
+        "name": "shelf",
+        "label": "Shelf",
+        "gloss": "a flat length of wood or rigid material, attached to a wall or forming part of a piece of furniture, that provides a surface for the storage or display of objects."
+    },
+    {
+        "name": "door_frame",
+        "label": "Door Frame",
+        "gloss": "the outside frame for the refrigerator door, usually made of plastic, etc."
+    },
+    {
+        "name": "control_button",
+        "label": "Control Button",
+        "gloss": "an individual control button that uses to set the time, mode for refrigerator"
+    },
+    {
+        "name": "display_panel",
+        "label": "Display Panel",
+        "gloss": "a display planel on the refrigerator indicating the cooking time"
+    },
+    {
+        "name": "control_panel",
+        "label": "Control Panel",
+        "gloss": "a control planel on the dishwasher with many buttons, displays on it"
+    },
+    {
+        "name": "frame",
+        "label": "Frame",
+        "gloss": "the exterior refrigerator box, excluding the interior trays, the outside door and refrigerator controls, etc."
+    },
+    {
+        "name": "surface",
+        "label": "Surface",
+        "gloss": "a big surface board"
+    },
+    {
+        "name": "glass",
+        "label": "Glass",
+        "gloss": "a surface of glass"
+    },
+    {
+      "name": "caster",
+      "label": "Wheel Assembly",
+      "gloss": "a pivoting roller attached to the bottom of furniture or trucks or portable machines to make them movable",
+      "parts": [
+        "caster_yoke",
+        "caster_stem",
+        "caster_mounting_plate",
+        "wheel",
+        "brake"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "brake",
+      "label": "Brake",
+      "gloss": "a restraint used to slow or stop a vehicle"
+    },
+    {
+      "name": "caster_yoke",
+      "label": "Caster Yoke",
+      "gloss": "forked part for connecting wheel to mounting plate"
+    },
+    {
+      "name": "caster_stem",
+      "label": "Caster Stem",
+      "gloss": "post part of caster rig"
+    },
+    {
+      "name": "caster_mounting_plate",
+      "label": "Mounting Plate",
+      "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "wheel",
+      "label": "Wheel",
+      "gloss": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)"
+    },
+    {
+      "name": "drawer",
+      "label": "Drawer",
+      "gloss": "a boxlike container in a piece of furniture; made so as to slide in and out",
+      "parts": [
+        "drawer_box",
+        "handle",
+        "drawer_rails",
+        "drawer_slider"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "drawer_box",
+      "label": "Drawer box",
+      "gloss": "The box part of a drawer (most of the time, only the drawer front will be present for annotation)",
+      "parts": [
+        "drawer_front",
+        "drawer_side",
+        "drawer_back",
+        "drawer_bottom"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "drawer_front",
+      "label": "Drawer front",
+      "gloss": "Front of the drawer"
+    },
+    {
+      "name": "drawer_side",
+      "label": "Drawer side",
+      "gloss": "Side of the drawer"
+    },
+    {
+      "name": "drawer_bottom",
+      "label": "Drawer bottom",
+      "gloss": "Bottom of the drawer"
+    },
+    {
+      "name": "drawer_back",
+      "label": "Drawer back",
+      "gloss": "Back of the drawer"
+    },
+    {
+      "name": "drawer_rails",
+      "label": "Drawer rails",
+      "gloss": "Rails on which the drawer goes"
+    },
+    {
+      "name": "drawer_slider",
+      "label": "Drawer slider",
+      "gloss": "Sliders on the drawer which attach to the rails"
+    }
+  ]
+}

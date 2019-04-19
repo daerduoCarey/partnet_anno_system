@@ -1,0 +1,169 @@
+{
+  "root": "earphone",
+  "content": [
+    {
+      "name": "earphone",
+      "label": "Earphone",
+      "gloss": "earphone with two sub-types (headphone and earbud)",
+      "subtypes": [
+        "headphone",
+        "earbud"
+      ]
+    },
+    {
+      "name": "headphone",
+      "label": "Headphone",
+      "gloss": "a kind of earphone that covers the ears",
+      "parts": [
+        "connector_wire",
+        "head_band",
+        "earcup_unit"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "earbud",
+      "label": "Earbud",
+      "gloss": "a kind of earphone without the supporting top band",
+      "parts": [
+        "earbud_connector_wire",
+        "earbud_unit"
+      ],
+      "default_part_num": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "connector_wire",
+      "label": "Connector Wire",
+      "gloss": "connecting wire that connects the headphone with a device",
+      "parts": [
+        "in_line_control",
+        "cable",
+        "connector_plug"
+      ],
+      "default_part_num": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "head_band",
+      "label": "Head Band",
+      "gloss": "the headband of the headphone",
+      "parts": [
+        "top_band",
+        "slider"
+      ],
+      "default_part_num": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "earcup_unit",
+      "label": "Earcup Unit",
+      "gloss": "whole earcup of the headphone",
+      "parts": [
+        "earcup_frame",
+        "earcup_pad",
+        "earcup_connector"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "earbud_connector_wire",
+      "label": "Earbud Connector Wire",
+      "gloss": "connector wire of earbud (with Y-splitter)",
+      "parts": [
+        "in_line_control",
+        "y_splitter",
+        "cable",
+        "connector_plug"
+      ],
+      "default_part_num": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "earbud_unit",
+      "label": "Earbud Unit",
+      "gloss": "a earbud unit",
+      "parts": ["earbud_frame", "earbud_pad", "earbud_connector"],
+      "default_part_num": [1, 1, 1]
+    },
+    {
+      "name": "in_line_control",
+      "label": "In-Line Control",
+      "gloss": "a In-line Control unit"
+    },
+    {
+      "name": "cable",
+      "label": "Cable",
+      "gloss": "cable part of the wire"
+    },
+    {
+      "name": "connector_plug",
+      "label": "Connector Plug",
+      "gloss": "a connector plug (usually 3.5mm)"
+    },
+    {
+      "name": "top_band",
+      "label": "Top Band",
+      "gloss": "top band or headband of the headphone"
+    },
+    {
+      "name": "slider",
+      "label": "Slider",
+      "gloss": "connects a earcup with the top band"
+    },
+    {
+      "name": "y_splitter",
+      "label": "Y-Splitter",
+      "gloss": "Y-Splitter that splits the cable"
+    },
+    {
+      "name": "earcup_frame",
+      "label": "Earcup Frame",
+      "gloss": "main headphone earcup frame"
+    },
+    {
+      "name": "earcup_pad",
+      "label": "Earcup Pad",
+      "gloss": "the padding part contacts an ear"
+    },
+    {
+      "name": "earcup_connector",
+      "label": "Earcup Connector",
+      "gloss": "connector between a earpad and a slider"
+    },
+    {
+      "name": "earbud_frame",
+      "label": "Earbud Frame",
+      "gloss": "main headphone earbud frame"
+    },
+    {
+      "name": "earbud_pad",
+      "label": "Earbud Pad",
+      "gloss": "the soft bud pad contacts an ear"
+    },
+    {
+      "name": "earbud_connector",
+      "label": "Earbud Connector",
+      "gloss": "connector between a earpad and a cord/line"
+    }
+  ]
+}

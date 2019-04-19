@@ -1,0 +1,1000 @@
+{
+  "root": "lamp",
+  "content": [
+    {
+      "name": "lamp",
+      "label": "Lamp",
+      "gloss": "any device serving as a source of illumination",
+      "subtypes": [
+        "floor_lamp",
+        "table_lamp",
+        "ceiling_lamp",
+        "wall_lamp",
+        "landscape_lamp",
+        "street_lamp",
+        "lava_lamp"
+      ],
+      "default_subtype": "table_lamp"  
+    },
+    {
+      "name": "floor_lamp",
+      "label": "Floor lamp",
+      "gloss": "a lamp that stands on the floor",
+      "parts": [
+        "lamp_base",
+        "lamp_body",
+        "lamp_unit",
+        "power_cord"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "table_lamp",
+      "label": "Table lamp",
+      "gloss": "a lamp that stands on a table or other piece of furniture",
+      "parts": [
+        "lamp_base",
+        "lamp_body",
+        "lamp_unit",
+        "power_cord"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ceiling_lamp",
+      "label": "Ceiling lamp",
+      "gloss": "A lamp that hangs from the ceiling",
+      "subtypes": [
+        "pendant_lamp",
+        "chandelier",
+        "track_lighting",
+        "recessed_lighting",
+        "flush_mount_lighting"
+      ],
+      "default_subtype": "pendant_lamp"
+    },
+    {
+      "name": "wall_lamp",
+      "label": "Wall lamp",
+      "gloss": "A lamp that attaches to the wall",
+      "parts": [
+        "lamp_base",
+        "lamp_body",
+        "lamp_unit",
+        "power_cord"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "landscape_lamp",
+      "label": "Landscape lamp",
+      "gloss": "A outside lamp, typically low to the ground, for illuminating the landscape and garden paths",
+      "parts": [
+        "lamp_base",
+        "lamp_body",
+        "lamp_head"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "street_lamp",
+      "label": "Street lamp",
+      "gloss": "A lamp supported on a post for illuminating a street",
+      "parts": [
+        "lamp_post",
+        "lamp_unit",
+        "street_lamp_base",
+        "banner",
+        "plant_pot",
+        "lamp_finial"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "street_lamp_base",
+      "label": "Street lamp base",
+      "gloss": "Solid base for a street lamp (usually made of concrete)"
+    },
+    {
+      "name": "lava_lamp",
+      "label": "Lava lamp",
+      "gloss": "A transparent electric lamp containing a viscous liquid in which a brightly colored waxy substance is suspended, rising and falling in irregular and constantly changing shapes.",
+      "parts": [
+        "lamp_base",
+        "lava_lamp_top",
+        "lava_lamp_glass",
+        "lava_lamp_bottom",
+        "liquid",
+        "wax_bubble"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "lamp_unit",
+      "label": "Lamp unit",
+      "gloss": "Lamp head (with light bulb) and arm (no base)",
+      "parts": [
+        "lamp_head",
+        "lamp_arm",
+        "connector"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "lamp_head",
+      "label": "Lamp head",
+      "gloss": "Light source with cover",
+      "parts": [
+        "lamp_cover_holder",
+        "lamp_cover",
+        "electric_candle",
+        "pendant_crystal_chain",
+        "light_socket",
+        "light_bulb",
+        "lamp_harp",
+        "lamp_wireframe_fitter",
+        "lamp_neck",
+        "lamp_finial",
+        "handle",
+        "switch"
+      ],
+      "default_part_num": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "lamp_neck",
+      "label": "Lamp neck",
+      "gloss": "Piece that connects the lamp head with the lamp body"
+    },
+    {
+      "name": "lamp_body",
+      "label": "Lamp body",
+      "gloss": "The main body of the lamp (connects the head and the base)",
+      "parts": [
+        "lamp_pole",
+        "lamp_body_curved",
+        "lamp_body_jointed",
+        "lamp_body_solid",
+        "lamp_body_complex_decoration",
+        "lamp_body_vertical_bar",
+        "lamp_body_horizontal_bar",
+        "lamp_body_slant_bar",
+        "lamp_body_vertical_panel",
+        "lamp_body_horizontal_panel"
+      ]
+    },
+    {
+      "name": "lamp_body_vertical_bar",
+      "label": "Vertical Bar",
+      "gloss": "Vertical Bar"
+    },
+    {
+      "name": "lamp_body_horizontal_bar",
+      "label": "Horizontal Bar",
+      "gloss": "Horizontal Bar"
+    },
+    {
+      "name": "lamp_body_slant_bar",
+      "label": "Slant Bar",
+      "gloss": "Slant Bar"
+    },
+    {
+      "name": "lamp_body_horizontal_panel",
+      "label": "Horizontal Panel",
+      "gloss": "Horizontal Panel"
+    },
+    {
+      "name": "lamp_body_vertical_panel",
+      "label": "Vertical Panel",
+      "gloss": "Vertical Panel"
+    },
+    {
+      "name": "lamp_pole",
+      "label": "Lamp pole",
+      "gloss": "Lamp body formed from a long straight, thin tube"
+    },
+    {
+      "name": "lamp_body_curved",
+      "label": "Lamp body curved",
+      "gloss": "Lamp body that is curved"
+    },
+    {
+      "name": "lamp_body_jointed",
+      "label": "Lamp body jointed",
+      "gloss": "Lamp body with segments connected by one or more joints",
+      "parts": [
+        "lamp_arm",
+        "lamp_joint",
+        "connector",
+        "switch"
+      ],
+      "default_part_num": [
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "lamp_body_solid",
+      "label": "Lamp body solid",
+      "gloss": "Lamp body with a solid shape"
+    },
+    {
+      "name": "lamp_body_complex_decoration",
+      "label": "Lamp body complex decoration",
+      "gloss": "Lamp body with complex decoration that is difficult to decompose"
+    },
+    {
+      "name": "lamp_cover",
+      "label": "Lamp cover",
+      "gloss": "a protective ornamental covering for a lamp, used to screen a light bulb from direct view",
+      "subtypes": [
+        "lamp_shade",
+        "wireframe_lamp_cover",
+        "lantern_lamp_cover",
+        "complex_decoration_lamp_cover"
+      ],
+      "default_subtype": "lamp_shade"
+    },
+    {
+      "name": "lamp_cover_holder",
+      "label": "Lamp cover holder",
+      "gloss": "Holder for a lamp cover"
+    },
+    {
+      "name": "lantern_lamp_cover",
+      "label": "Lantern lamp cover",
+      "gloss": "Lamp cover similar to those used for lanterns",
+      "parts": [
+        "lamp_cover_frame",
+        "lamp_cover_glass"
+      ],
+      "default_part_num": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "wireframe_lamp_cover",
+      "label": "Wireframe lamp cover",
+      "gloss": "Lamp cover that is just a wireframe"
+    },
+    {
+      "name": "complex_decoration_lamp_cover",
+      "label": "Complex decoration lamp cover",
+      "gloss": "Lamp cover with complex decoration that is made from many pieces"
+    },
+    {
+      "name": "lamp_harp",
+      "label": "Lamp harp",
+      "gloss": "A vertical metal frame shaped to bend around the bulb in a standing lamp and used to support a lamp shade"
+    },
+    {
+      "name": "lamp_finial",
+      "label": "Lamp finial",
+      "gloss": "a small ornamental piece on the top of the lamp harp"
+    },
+    {
+      "name": "lamp_wireframe_fitter",
+      "label": "Lamp wireframe fitter",
+      "gloss": "The metal structure that attaches the lamp cover to the lamp harp or light bulb."
+    },
+    {
+      "name": "pendant_lamp",
+      "label": "Pendant lamp",
+      "gloss": "Lamp that hangs via a chain from the ceiling",
+      "parts": [
+        "lamp_base",
+        "pendant_lamp_unit",
+        "power_cord"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "pendant_lamp_unit",
+      "label": "Pendant lamp unit",
+      "gloss": "Single pedant lamp head with chain",
+      "parts": [
+        "lamp_head",
+        "chain",
+        "hook",
+        "connector",
+        "lamp_frame"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "lamp_frame",
+      "label": "Lamp frame",
+      "gloss": "Frame for a set of lamp heads"
+    },
+    {
+      "name": "chandelier",
+      "label": "Chandelier",
+      "gloss": "Branched lighting fixture, often ornate, that hangs from the ceiling",
+      "parts": [
+        "lamp_base",
+        "chain",
+        "lamp_body",
+        "lamp_unit_group",
+        "power_cord"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "lamp_unit_group",
+      "label": "Lamp unit group",
+      "gloss": "Group of lamp units",
+      "parts": [
+        "lamp_unit",
+        "chain",
+        "crystal_chain",
+        "pendant_crystal_chain",
+        "circular_frame"
+      ],
+      "default_part_num": [
+        6,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "circular_frame",
+      "label": "Circular frame",
+      "gloss": "Circular frame representing one layer of a lamp units for a chandelier"
+    },
+    {
+      "name": "track_lighting",
+      "label": "Track lighting",
+      "gloss": "Lighting that is mounted on a track (typically on the ceiling)",
+      "parts": [
+        "lamp_track",
+        "lamp_unit",
+        "lamp_base"
+      ],
+      "default_part_num": [
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "recessed_lighting",
+      "label": "Recessed lighting",
+      "gloss": "Light fixture that is installed into a hollow opening in a ceiling",
+      "parts": [
+        "lamp_head",
+        "outside_lamp_frame"
+      ],
+      "default_part_num": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "flush_mount_lighting",
+      "label": "Flush mount lighting",
+      "gloss": "Light fixture that is flush against the ceiling",
+      "parts": [
+        "lamp_head",
+        "outside_lamp_frame"
+      ],
+      "default_part_num": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "outside_lamp_frame",
+      "label": "Outside Lamp Frame",
+      "gloss": "a frame part that is fixed on the ceiling, with a lamp body inside it"
+    },
+    {
+      "name": "lamp_post",
+      "label": "Lamp post",
+      "gloss": "a metal post supporting an outdoor lamp (such as a streetlight)"
+    },
+    {
+      "name": "lamp_joint",
+      "label": "Lamp joint",
+      "gloss": "Joint connecting two sections allowing for movement"
+    },
+    {
+      "name": "lamp_arm",
+      "label": "Lamp arm",
+      "gloss": "support that connects the lamp head to the main lamp body",
+      "parts": [
+        "lamp_arm_straight_bar",
+        "lamp_arm_curved_bar",
+        "lamp_arm_decoration",
+        "lamp_arm_accordion"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "lamp_arm_straight_bar",
+      "label": "Lamp arm straight bar",
+      "gloss": "Main arm support as a straight bar (for connecting lamp head to lamp body)"
+    },
+    {
+      "name": "lamp_arm_curved_bar",
+      "label": "Lamp arm curved bar",
+      "gloss": "Main arm support as a curved bar (for connecting lamp head to lamp body)"
+    },
+    {
+      "name": "lamp_arm_decoration",
+      "label": "Lamp arm decoration",
+      "gloss": "Decorative part of lamp arm"
+    },
+    {
+      "name": "lamp_arm_accordion",
+      "label": "Lamp arm accordion",
+      "gloss": "Expandable accordion arm"
+    },
+    {
+      "name": "lamp_shade",
+      "label": "Lamp shade",
+      "gloss": "a protective ornamental covering for a lamp, used to prevent lamp from shining in all directions or lessen the brightness of the light bulb"
+    },
+    {
+      "name": "lamp_base",
+      "label": "Lamp base",
+      "gloss": "a support or foundation for lamp",
+      "subtypes": [
+        "lamp_holistic_base",
+        "lamp_leg_base",
+        "lamp_star_base",
+        "lamp_clamp_base"
+      ],
+      "default_subtype": "lamp_holistic_base"
+    },
+    {
+      "name": "lamp_holistic_base",
+      "label": "Lamp holistic base",
+      "gloss": "Holistic lamp base that is composed mainly of one piece",
+      "parts": [
+        "lamp_base_part",
+        "foot",
+        "switch"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "lamp_leg_base",
+      "label": "Lamp leg base",
+      "gloss": "Lamp base with legs",
+      "parts": [
+        "leg",
+        "telescoping_leg",
+        "foot",
+        "bar_stretcher",
+        "horizontal_panel",
+        "switch"
+      ],
+      "default_part_num": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "bar_stretcher",
+      "label": "Bar Stretcher",
+      "gloss": "a supporting part joining the legs that is of bar/strip like shape"
+    },
+    {
+      "name": "horizontal_panel",
+      "label": "Horizontal panel",
+      "gloss": "a horizontal panel"
+    },
+    {
+      "name": "lamp_star_base",
+      "label": "Lamp star base",
+      "gloss": "Lamp base that includes a star-shaped leg structure.  Each leg of the star leg structure is near-horizontal to the ground plane.",
+      "parts": [
+        "star_leg_set",
+        "switch"
+      ],
+      "default_part_num": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "star_leg_set",
+      "label": "Star-shape Leg Set",
+      "gloss": "a star shape structure that contains many legs and the correlated foots or casters",
+      "parts": [
+        "leg",
+        "foot"
+      ],
+      "default_part_num": [
+        4,
+        0
+      ]
+    },
+    {
+      "name": "lamp_clamp_base",
+      "label": "Lamp clamp base",
+      "gloss": "Lamp base with clamp",
+      "parts": [
+        "clamp",
+        "lamp_base_part",
+        "switch"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "lamp_base_part",
+      "label": "Lamp base part",
+      "gloss": "Part of a lamp base"
+    },
+    {
+      "name": "light_unit",
+      "label": "Light unit",
+      "gloss": "Source of illumination (such as light bulb, or candle) with holder",
+      "subtypes": [
+        "electric_light",
+        "electric_candle",
+        "candle"
+      ],
+      "default_subtype": "electric_light"
+    },
+    {
+      "name": "light_bulb",
+      "label": "Light bulb",
+      "gloss": "a glass bulb that provides light by passing an electric current through a filament or a pocket of inert gas"
+    },
+    {
+      "name": "light_socket",
+      "label": "Light socket",
+      "gloss": "a receptacle into which an light bulb can be inserted"
+    },
+    {
+      "name": "clamp",
+      "label": "Clamp",
+      "gloss": "a device that that holds things firmly together",
+      "parts": [
+        "clamp_upper",
+        "clamp_lower",
+        "clamp_frame",
+        "clamp_screw",
+        "clamp_handle"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "clamp_upper",
+      "label": "Clamp upper",
+      "gloss": "Upper part of a clamp"
+    },
+    {
+      "name": "clamp_lower",
+      "label": "Clamp lower",
+      "gloss": "Lower part of a clamp"
+    },
+    {
+      "name": "clamp_frame",
+      "label": "Clamp frame",
+      "gloss": "Clamp frame"
+    },
+    {
+      "name": "clamp_screw",
+      "label": "Clamp screw",
+      "gloss": "Screw for fastening the clamp"
+    },
+    {
+      "name": "clamp_handle",
+      "label": "Clamp handle",
+      "gloss": "Handle for adjusting the tightness of a clamp"
+    },
+    {
+      "name": "leg",
+      "label": "Leg",
+      "gloss": "one of the supports for the lamp"
+    },
+    {
+      "name": "telescoping_leg",
+      "label": "Telescoping Leg",
+      "gloss": "A leg that consisting of multiple pieces that can be expanded",
+      "parts": [
+        "upper_leg",
+        "lower_leg"
+      ],
+      "default_part_num": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "upper_leg",
+      "label": "Upper Leg",
+      "gloss": "Upper part of a telescoping leg"
+    },
+    {
+      "name": "lower_leg",
+      "label": "Lower Leg",
+      "gloss": "Lower part of a telescoping leg"
+    },
+    {
+      "name": "foot",
+      "label": "Foot",
+      "gloss": "a support resembling a pedal extremity"
+    },
+    {
+      "name": "switch",
+      "label": "Switch",
+      "gloss": "Control for turning the lamp on and off",
+      "subtypes": [
+        "button_switch",
+        "knob_switch",
+        "chain_switch",
+        "rotate_switch"
+      ],
+      "default_subtype": "button_switch"
+    },
+    {
+      "name": "button_switch",
+      "label": "Button switch",
+      "gloss": "Switch consisting of a button that is pressed on and off",
+      "parts": ["movable_part", "fixed_part"],
+      "default_part_num": [1, 1]
+    },
+    {
+      "name": "knob_switch",
+      "label": "Knob switch",
+      "gloss": "Switch consisting of a knob that is toggled on and off",
+      "parts": ["movable_part", "fixed_part"],
+      "default_part_num": [1, 1]
+    },
+    {
+      "name": "rotate_switch",
+      "label": "Rotate switch",
+      "gloss": "Switch consisting of a switch that is turned on and off",
+      "parts": ["movable_part", "fixed_part"],
+      "default_part_num": [1, 1]
+    },
+    {
+      "name": "chain_switch",
+      "label": "Chain switch",
+      "gloss": "Switch consisting of a chain and controlled by pulling",
+      "parts": [
+        "pull_chain",
+        "pull_chain_handle",
+        "fixed_part"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "movable_part",
+      "label": "Movable Part",
+      "gloss": "A part of switch that is movable"
+    },
+    {
+      "name": "fixed_part",
+      "label": "Fixed Part",
+      "gloss": "A part of switch that is fixed"
+    },
+    {
+      "name": "pull_chain",
+      "label": "Pull chain",
+      "gloss": "Chain that can be pulled"
+    },
+    {
+      "name": "pull_chain_handle",
+      "label": "Pull chain handle",
+      "gloss": "Handle for pulling on the pull chain"
+    },
+    {
+      "name": "connector",
+      "label": "Connector",
+      "gloss": "Connector for attaching parts of the lamp together"
+    },
+    {
+      "name": "power_cord",
+      "label": "Power cord",
+      "gloss": "Power cord for hooking up the lamp to an electric source",
+      "parts": [
+        "cord",
+        "switch",
+        "plug"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "cord",
+      "label": "Cord",
+      "gloss": "A light insulated conductor for household use"
+    },
+    {
+      "name": "plug",
+      "label": "Plug",
+      "gloss": "An electrical device with two or three pins that is inserted in a socket to make an electrical connection"
+    },
+    {
+      "name": "lamp_track",
+      "label": "Lamp track",
+      "gloss": "Ceiling track for mounting track lamps"
+    },
+    {
+      "name": "lamp_cover_frame",
+      "label": "Lamp cover frame",
+      "gloss": "Frame of a lamp cover",
+      "parts": [
+        "lamp_cover_frame_top_finial",
+        "lamp_cover_frame_top",
+        "lamp_cover_frame_bar",
+        "lamp_cover_frame_bottom",
+        "lamp_cover_frame_bottom_finial"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "lamp_cover_frame_top_finial",
+      "label": "Lamp cover frame top finial",
+      "gloss": "Decorative tip at the top part of the frame of a lamp cover"
+    },
+    {
+      "name": "lamp_cover_frame_top",
+      "label": "Lamp cover frame top",
+      "gloss": "Top part of the frame of a lamp cover"
+    },
+    {
+      "name": "lamp_cover_frame_bar",
+      "label": "Lamp cover frame bar",
+      "gloss": "Vertical bar of the frame of a lamp cover"
+    },
+    {
+      "name": "lamp_cover_frame_bottom",
+      "label": "Lamp cover frame bottom",
+      "gloss": "Bottom part of the frame of a lamp cover"
+    },
+    {
+      "name": "lamp_cover_frame_bottom_finial",
+      "label": "Lamp cover frame bottom finial",
+      "gloss": "Decorative tip at the bottom part of the frame of a lamp cover"
+    },
+    {
+      "name": "lamp_cover_glass",
+      "label": "Lamp cover glass",
+      "gloss": "Clear lamp cover"
+    },
+    {
+      "name": "glass_panel",
+      "label": "Glass panel",
+      "gloss": "clear, flat and rectangular sheet that forms component of something"
+    },
+    {
+      "name": "crystal_chain",
+      "label": "Crystal chain",
+      "gloss": "Chain with crystal pieces (typically used in chandeliers)"
+    },
+    {
+      "name": "pendant_crystal_chain",
+      "label": "Pendant crystal chain",
+      "gloss": "Chain with crystal pieces (typically used in chandeliers) that hangs down"
+    },
+    {
+      "name": "candle",
+      "label": "Candle",
+      "gloss": "stick of wax with a wick in the middle",
+      "parts": [
+        "candle_tube",
+        "candle_holder",
+        "candle_flame",
+        "wick"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "electric_light",
+      "label": "Electric light",
+      "gloss": "Electric light",
+      "parts": [
+        "light_socket",
+        "light_bulb"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "electric_candle",
+      "label": "Electric candle",
+      "gloss": "Electric lamp that looks like a candle",
+      "parts": [
+        "candle_tube",
+        "candle_holder",
+        "light_bulb"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "chain",
+      "label": "Chain",
+      "gloss": "a series of (usually metal) rings or links fitted into one another to make a flexible ligament"
+    },
+    {
+      "name": "candle_holder",
+      "label": "Candle holder",
+      "gloss": "Holder for the candle"
+    },
+    {
+      "name": "candle_tube",
+      "label": "Candle tube",
+      "gloss": "Tubular part of the candle"
+    },
+    {
+      "name": "candle_flame",
+      "label": "Candle flame",
+      "gloss": "Flame of the candle"
+    },
+    {
+      "name": "wick",
+      "label": "Wick",
+      "gloss": "a loosely woven cord (in a candle or oil lamp) that draws fuel by capillary action up into the flame"
+    },
+    {
+      "name": "hook",
+      "label": "Hook",
+      "gloss": "A piece of metal or other material, curved or bent back at an angle, for catching hold of or hanging things on"
+    },
+    {
+      "name": "plant_pot",
+      "label": "Plant pot",
+      "gloss": "Pot for plant or flowers (sometimes attached to streetlights)"
+    },
+    {
+      "name": "banner",
+      "label": "Banner",
+      "gloss": "A long strip of cloth bearing a slogan or design (sometimes attached to streetlights)"
+    },
+    {
+      "name": "handle",
+      "label": "Handle",
+      "gloss": "The part by which the lamp or lamp head is held, carried, or controlled."
+    },
+    {
+      "name": "lava_lamp_top",
+      "label": "Lava lamp top",
+      "gloss": "Top part of a lava lamp"
+    },
+    {
+      "name": "lava_lamp_bottom",
+      "label": "Lava lamp bottom",
+      "gloss": "Bottom part of a lava lamp"
+    },
+    {
+      "name": "lava_lamp_glass",
+      "label": "Lava lamp glass",
+      "gloss": "Glass vessel forming the body of a lava lamp"
+    },
+    {
+      "name": "liquid",
+      "label": "Liquid",
+      "gloss": "Liquid in which lava lamp wax bubbles float"
+    },
+    {
+      "name": "wax_bubble",
+      "label": "Wax bubble",
+      "gloss": "Floating bubbles found in a lava lamp"
+    }
+  ]
+}

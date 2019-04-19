@@ -1,0 +1,197 @@
+{
+  "root": "microwave",
+  "content": [
+    {
+      "name": "microwave",
+      "label": "Microwave",
+      "gloss": "an electric oven that heats and cooks food by exposing it to electromagnetic radiation in the microwave frequency range",
+      "parts": [
+          "body",
+          "base",
+          "accessories"
+      ],
+      "default_part_num": [
+          1,
+          0,
+          0
+      ]
+    },
+    {
+        "name": "body",
+        "label": "Body",
+        "gloss": "the main body part for a microwave, excluding the foot base and cords, etc.",
+        "parts": [
+            "frame",
+            "body_interior",
+            "door",
+            "side_controls"
+        ],
+        "default_part_num": [
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+      "name": "hinge",
+      "label": "Hinge",
+      "gloss": "a joint that holds two parts together so that one can swing relative to the other"
+    },
+    {
+        "name": "base",
+        "label": "Base",
+        "gloss": "the base support for the microwave",
+        "subtypes": [
+            "foot_base",
+            "surface_base"
+        ],
+        "default_subtype": "foot_base"
+    },
+    {
+        "name": "foot_base",
+        "label": "Foot Base",
+        "gloss": "the foot base for microwave that touchs the ground",
+        "parts": [
+            "foot"
+        ],
+        "default_part_num": [
+            4
+        ]
+    },
+    {
+        "name": "surface_base",
+        "label": "Surface Base",
+        "gloss": "surface style base (or directly contacting with the ground)",
+        "parts": [
+            "surface"
+        ],
+        "default_part_num": [
+            1
+        ]
+    },
+    {
+        "name": "accessories",
+        "label": "Accessories",
+        "gloss": "all accessories parts, including cord, etc.",
+        "parts": [
+            "cord"
+        ],
+        "default_part_num": [
+            0
+        ]
+    },
+    {
+        "name": "body_interior",
+        "label": "Body Interior",
+        "gloss": "a set of components inside the microwave box, including the tray and the tray support",
+        "parts": [
+            "tray",
+            "tray_support"
+        ],
+        "default_part_num": [
+            0,
+            0
+        ]
+    },
+    {
+        "name": "door",
+        "label": "Door",
+        "gloss": "the microwave door which can be open and food can be put through the door",
+        "parts": [
+            "door_frame",
+            "glass",
+            "handle",
+            "hinge"
+        ],
+        "default_part_num": [
+            1,
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "side_controls",
+        "label": "Side Controls",
+        "gloss": "a set of controls at the side of microwave, including buttons and display panels, etc.",
+        "parts": [
+            "door_button",
+            "control_button",
+            "display_panel",
+            "indicator"
+        ],
+        "default_part_num": [
+            1,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "indicator",
+        "label": "Indicator",
+        "gloss": "indicator of the status on the panel"
+    },
+    {
+        "name": "cord",
+        "label": "Cord",
+        "gloss": "a cord or connector line that connects the microwave to power"
+    },
+    {
+        "name": "handle",
+        "label": "Handle",
+        "gloss": "a handle that people can use to pull open and off a door"
+    },
+    {
+        "name": "foot",
+        "label": "Foot",
+        "gloss": "a short leg or foot at the very bottom of a microwave that touchs the ground"
+    },
+    {
+        "name": "tray",
+        "label": "Tray",
+        "gloss": "a flat, shallow container with a raised rim, typically used for carrying food and drink, or for holding small items"
+    },
+    {
+        "name": "tray_support",
+        "label": "Tray Support",
+        "gloss": "a supporting part that is under the microwave interior tray"
+    },
+    {
+        "name": "door_frame",
+        "label": "Door Frame",
+        "gloss": "the outside frame for the microwave door, usually made of plastic, etc."
+    },
+    {
+        "name": "glass",
+        "label": "Door Glass",
+        "gloss": "a glass part on the microwave door that human can see inside the microwave"
+    },
+    {
+        "name": "door_button",
+        "label": "Door Button",
+        "gloss": "a button that you can push to open the microwave door"
+    },
+    {
+        "name": "control_button",
+        "label": "Control Button",
+        "gloss": "an individual control button that uses to set the time, mode for microwave"
+    },
+    {
+        "name": "display_panel",
+        "label": "Display Panel",
+        "gloss": "a display planel on the microwave indicating the cooking time"
+    },
+    {
+        "name": "frame",
+        "label": "Frame",
+        "gloss": "the exterior microwave box, excluding the interior trays, the outside door and microwave controls, etc."
+    },
+    {
+        "name": "surface",
+        "label": "Surface",
+        "gloss": "a big surface board"
+    }
+  ]
+}

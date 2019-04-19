@@ -1,0 +1,131 @@
+{
+  "root": "faucet",
+  "content": [
+    {
+      "name": "faucet",
+      "label": "Faucet",
+      "gloss": "a device by which a flow of liquid or gas from a pipe or container can be controlled",
+      "subtypes": [
+          "normal_faucet",
+          "shower_faucet"
+      ],
+      "default_subtype": "normal_faucet"
+    },
+    {
+        "name": "normal_faucet",
+        "label": "Normal Faucet",
+        "gloss": "a normal faucet that is used in kitchen or bathroom (no shower faucet)",
+        "parts": [
+              "switch",
+              "frame",
+              "spout"
+        ],
+        "default_part_num": [
+              1,
+              1,
+              1
+        ]
+    },
+    {
+        "name": "shower_faucet",
+        "label": "Shower Faucet",
+        "gloss": "a shower faucet that people use when having a shower",
+        "parts": [
+              "switch",
+              "hose",
+              "spout",
+              "frame"
+        ],
+        "default_part_num": [
+              1,
+              1,
+              1,
+              1
+        ]
+    },
+    {
+      "name": "switch",
+      "label": "Switch",
+      "gloss": "switch that turns on and off the faucet"
+    },
+    {
+      "name": "spout",
+      "label": "Spout",
+      "gloss": "a tube or lip projecting from a container or a cube, through which liquid can be poured",
+      "parts": [
+          "tube",
+          "head",
+          "mouth"
+      ],
+      "default_part_num": [
+          1,
+          0,
+          1
+      ]
+    },
+    {
+      "name": "frame",
+      "label": "Frame",
+      "gloss": "the main frame/base/connector of the faucet",
+      "parts": [
+          "surface_base",
+          "vertical_support",
+          "horizontal_support",
+          "other_support",
+          "connector"
+      ],
+      "default_part_num": [
+          0,
+          1,
+          0,
+          0,
+          0
+      ]
+    },
+    {
+      "name": "surface_base",
+      "label": "Surface Base",
+      "gloss": "a surface base that connects the faucet to the wall or ground"
+    },
+    {
+      "name": "vertical_support",
+      "label": "Vertical Support",
+      "gloss": "a vertical supporting frame structure"
+    },
+    {
+      "name": "horizontal_support",
+      "label": "Horizontal Support",
+      "gloss": "a horizontal supporting frame structure"
+    },
+    {
+      "name": "other_support",
+      "label": "Other Support",
+      "gloss": "an uncategorized supporting frame structure"
+    },
+    {
+      "name": "connector",
+      "label": "Connector",
+      "gloss": "a connecting part between othe parts"
+    },
+    {
+      "name": "tube",
+      "label": "Tube",
+      "gloss": "a long tube that water flows through"
+    },
+    {
+      "name": "mouth",
+      "label": "Mouth",
+      "gloss": "a part that water gets out of the spout"
+    },
+    {
+      "name": "head",
+      "label": "Head",
+      "gloss": "a part that connects spout tube and spout mouth"
+    },
+    {
+      "name": "hose",
+      "label": "Hose",
+      "gloss": "a flexible tube conveying water"
+    }
+  ]
+}

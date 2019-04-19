@@ -1,0 +1,46 @@
+{
+  "root": "scissors",
+  "content": [
+    {
+      "name": "scissors",
+      "label": "Scissors",
+      "gloss": "an instrument used for cutting cloth, paper, and other thin material",
+      "parts": [
+          "blade_handle_set",
+          "screw"
+      ],
+      "default_part_num": [
+          2,
+          1
+      ]
+    },
+    {
+        "name": "screw",
+        "label": "Screw",
+        "gloss": "a short, slender, sharp-pointed metal pin with a raised helical thread running around it and a slotted head, used to join things together by being rotated so that it pierces wood or other material and is held tightly in place"
+    },
+    {
+        "name": "blade_handle_set",
+        "label": "Blade Handle Set",
+        "gloss": "a set of blade and handle that are connected to each other",
+        "parts": [
+            "blade",
+            "handle"
+        ],
+        "default_part_num": [
+            1,
+            1
+        ]
+    },
+    {
+        "name": "handle",
+        "label": "Handle",
+        "gloss": "a handle where human grasp and hold the scissors"
+    },
+    {
+        "name": "blade",
+        "label": "Blade",
+        "gloss": "a flat cutting edge of a knife"
+    }
+  ]
+}

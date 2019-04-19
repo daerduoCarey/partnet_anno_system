@@ -1,0 +1,53 @@
+{
+  "root": "bowl",
+  "content": [
+    {
+      "name": "bowl",
+      "label": "Bowl",
+      "gloss": "a round, deep dish or basin used for food or liquid",
+      "parts": [
+          "container",
+          "bottom",
+          "containing_things"
+      ],
+      "default_part_num": [
+          1,
+          1,
+          0
+      ]
+    },
+    {
+        "name": "container",
+        "label": "Container",
+        "gloss": "the main bowl container"
+    },
+    {
+        "name": "bottom",
+        "label": "Bottom",
+        "gloss": "the bowl bottom or base"
+    },
+    {
+        "name": "containing_things",
+        "label": "Stuffs contained",
+        "gloss": "the food or liquid contained in the bowl",
+        "parts": [
+            "liquid",
+            "food"
+        ],
+        "default_part_num": [
+            0,
+            0
+        ]
+    },
+    {
+        "name": "liquid",
+        "label": "Liquid",
+        "gloss": "a substance that flows freely but is of constant volume"
+    },
+    {
+        "name": "food",
+        "label": "Food",
+        "gloss": "any nutritious substance that people or animals eat"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "root": "clock",
+  "content": [
+    {
+      "name": "clock",
+      "label": "Clock",
+      "gloss": "a mechanical or electrical device for measuring time, indicating hours, minutes, and sometimes seconds, typically by hands on a round dial or by displayed figures",
+      "subtypes": [
+        "normal_clock",
+        "digital_clock",
+        "pendulum_clock",
+        "watch"
+      ]
+    },
+    {
+      "name": "normal_clock",
+      "label": "Normal Clock",
+      "gloss": "a normal clock without pendulum or other complicated decoration",
+      "parts": [
+        "base",
+        "clock_body",
+        "alarm"
+      ],
+      "default_part_num": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "digital_clock",
+      "label": "Digital Clock",
+      "gloss": "digital clock with screen",
+      "parts": [
+        "base",
+        "clock_body"
+      ],
+      "default_part_num": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pendulum_clock",
+      "label": "Pendulum Clock",
+      "gloss": "a clock that uses a pendulum, a swinging weight, as its timekeeping element",
+      "parts": [
+        "pendulum_clock_top",
+        "pendulum_clock_frame",
+        "pendulum_clock_base",
+        "pendulum",
+        "clock_body"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "base",
+      "label": "Base",
+      "gloss": "base (support part) of the clock",
+      "subtypes": [
+        "foot_base",
+        "hanging_base",
+        "surface_base"
+      ]
+    },
+    {
+      "name": "pendulum_clock_base",
+      "label": "Pendulum Clock Base",
+      "gloss": "base (support part) of the clock",
+      "subtypes": [
+        "foot_base",
+        "surface_base"
+      ]
+    },
+    {
+      "name": "frame",
+      "label": "Frame",
+      "gloss": "frame around the main clock part (usually circular)"
+    },
+    {
+      "name": "clock_body",
+      "label": "Clock Body",
+      "gloss": "main clock body",
+      "parts": [
+        "frame",
+        "hand",
+        "surface",
+        "glass",
+        "button",
+        "screen"
+      ],
+      "default_part_num": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "pendulum_clock_frame",
+      "label": "Pendulum Clock Frame",
+      "gloss": "outside frame part of the pendulum clock",
+      "parts": [
+        "box",
+        "door",
+        "support_bar"
+      ]
+    },
+    {
+      "name": "door",
+      "label": "Door",
+      "gloss": "the door that we open to see the clock inside",
+      "parts": [
+        "handle",
+        "door_surface",
+        "hinge"
+      ]
+    },
+    {
+      "name": "door_surface",
+      "label": "Door Surface",
+      "gloss": "Surface forming the clock frame door"
+    },
+    {
+      "name": "box",
+      "label": "Box",
+      "gloss": "the clock main box, except for door and supporting bars"
+    },
+    {
+      "name": "hinge",
+      "label": "Hinge",
+      "gloss": "a joint that holds two parts together so that one can swing relative to the other"
+    },
+    {
+      "name": "handle",
+      "label": "Handle",
+      "gloss": "the appendage to an object that is designed to be held in order to use or move it"
+    },
+    {
+      "name": "support_bar",
+      "label": "Support Bar",
+      "gloss": "a supporting bar"
+    },
+    {
+      "name": "pendulum_clock_top",
+      "label": "Pendulum Clock Top",
+      "gloss": "the top decoration part of the pendulum clock"
+    },
+    {
+      "name": "pendulum",
+      "label": "Pendulum",
+      "gloss": "the pendulum part of the pendulum clock",
+      "parts": [
+        "pendulum_body",
+        "weights",
+        "chain"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "foot_base",
+      "label": "Foot Base",
+      "gloss": "foot style base",
+      "parts": [
+          "foot", "base_support", "base_surface"
+      ]
+    },
+    {
+      "name": "hanging_base",
+      "label": "Hanging Base",
+      "gloss": "the clock body is supported by the base by hanging",
+      "parts": [
+          "base_surface",
+          "base_support"
+          ]
+    },
+    {
+      "name": "alarm",
+      "label": "Alarm Part",
+      "gloss": "Alarm part",
+      "parts": ["alarm_ring", "alarm_connector"]
+    },
+    {
+      "name": "alarm_ring",
+      "label": "Alarm Ring",
+      "gloss": "Alarm Ring"
+    },
+    {
+      "name": "alarm_connector",
+      "label": "Alarm Connector",
+      "gloss": "Alarm Connector"
+    },
+    {
+      "name": "hand",
+      "label": "Hand",
+      "gloss": "hand on the clock"
+    },
+    {
+      "name": "surface",
+      "label": "Surface",
+      "gloss": "surface of the clock"
+    },
+    {
+      "name": "screen",
+      "label": "Screen",
+      "gloss": "screen of the digital clock"
+    },
+    {
+      "name": "button",
+      "label": "Button",
+      "gloss": "button on the panel of the digital clock"
+    },
+    {
+      "name": "surface_base",
+      "label": "Surface Base",
+      "gloss": "surface base",
+      "parts": ["base_surface", "base_support"]
+    },
+    {
+      "name": "pendulum_body",
+      "label": "Pendulum Body",
+      "gloss": "main body of the pendulum"
+    },
+    {
+      "name": "weights",
+      "label": "Weights",
+      "gloss": "weights of the pendulum"
+    },
+    {
+      "name": "chain",
+      "label": "Chain",
+      "gloss": "chain of the pendulum"
+    },
+    {
+      "name": "glass",
+      "label": "Glass",
+      "gloss": "the glass surface above the clock"
+    },
+    {
+      "name": "watch",
+      "label": "Watch",
+      "gloss": "a small timepiece worn typically on a strap on one's wrist",
+      "parts": [
+        "strap",
+        "watch_body",
+        "lug"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "strap",
+      "label": "Strap",
+      "gloss": "the strap of the watch for fastening"
+    },
+    {
+      "name": "watch_body",
+      "label": "Watch Body",
+      "gloss": "the main body of the watch",
+      "parts": [
+        "surface",
+        "hand",
+        "frame",
+        "crown",
+        "glass",
+        "screen"
+      ],
+      "default_part_num": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "lug",
+      "label": "Lug",
+      "gloss": "lug (connector of the main body and the strap)"
+    },
+    {
+      "name": "crown",
+      "label": "Crown",
+      "gloss": "crown for adjusting the time or date"
+    },
+    {
+      "name": "foot",
+      "label": "Foot",
+      "gloss": "a support resembling a pedal extremity"
+    },
+    {
+      "name": "base_support",
+      "label": "Base Support",
+      "gloss": "a supporting structure for clock base"
+    },
+    {
+      "name": "base_surface",
+      "label": "Base Surface",
+      "gloss": "the surface base that touches the ground or table"
+    }
+  ]
+}

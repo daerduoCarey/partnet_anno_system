@@ -1,0 +1,292 @@
+{
+  "root": "trash_can",
+  "content": [
+    {
+      "name": "trash_can",
+      "label": "Trash Can",
+      "gloss": "a container for the disposal of dry waste matter",
+      "parts": [
+        "cover",
+        "container",
+        "outside_frame",
+        "base"
+      ],
+      "default_part_num": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "cover",
+      "label": "Cover",
+      "gloss": "a cover or lid or top for a trash can, including all handles or knobs on top of it",
+      "parts": [
+        "cover_lid",
+        "cover_handle",
+        "cover_frame",
+        "cover_support"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "cover_lid",
+      "label": "Cover Lid",
+      "gloss": "a lid that covers the trash bin container, potentially movable (without handles, knobs or the other accessories)"
+    },
+    {
+      "name": "cover_handle",
+      "label": "Cover Handle",
+      "gloss": "a handle, or a knob for a trash can cover that people can pull the lid up using the handle"
+    },
+    {
+      "name": "cover_frame",
+      "label": "Cover Frame",
+      "gloss": "a fixed cover frame that connects to the trash can container"
+    },
+    {
+      "name": "cover_support",
+      "label": "Cover Support",
+      "gloss": "a supporting component that supports and connects a trash can cover to the container"
+    },
+    {
+      "name": "container",
+      "label": "Container",
+      "gloss": "a container (box or basket) that contains the trash, including handles, foot taps and the other accessories, excluding the outside frames that is outside of the main container",
+      "parts": [
+        "container_neck",
+        "container_handle",
+        "container_box",
+        "container_basket",
+        "container_bottom",
+        "container_foot_tap"
+      ],
+      "default_part_num": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "container_neck",
+      "label": "Container Neck",
+      "gloss": "a top part of a trash can container that is a rim, connector, or a part that has different geometry from the main container part "
+    },
+    {
+      "name": "container_handle",
+      "label": "Container Handle",
+      "gloss": "a handle, or a knob on a trash can container body that is used to lyft up the entire box and move the entire trash can"
+    },
+    {
+      "name": "container_box",
+      "label": "Container Box",
+      "gloss": "a holistic part for container main body, usually made of plastic, steel, etc."
+    },
+    {
+      "name": "container_basket",
+      "label": "Container Basket",
+      "gloss": "a part with basket or net structure for container main body, usually made of plastic, steel, etc."
+    },
+    {
+      "name": "container_bottom",
+      "label": "Container Bottom",
+      "gloss": "a clearly part that is at the bottom of a trash can container and touchs the ground"
+    },
+    {
+      "name": "container_foot_tap",
+      "label": "Container Foot Tap",
+      "gloss": "a foot tap that is associated with a trash can container and can be stepped by human foot to open the trash can lid"
+    },
+    {
+      "name": "outside_frame",
+      "label": "Outside Frame",
+      "gloss": "a set of parts that is outside the main trash can container and is used to support the main trash can",
+      "parts": [
+        "frame_horizontal_bar",
+        "frame_horizontal_circle",
+        "frame_vertical_bar",
+        "frame_holistic",
+        "frame_bottom"
+      ],
+      "default_part_num": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "frame_horizontal_bar",
+      "label": "Frame Horizontal Bar",
+      "gloss": "frame horizontal bar"
+    },
+    {
+      "name": "frame_horizontal_circle",
+      "label": "Frame Horizontal Circle",
+      "gloss": "frame horizontal Circle"
+    },
+    {
+      "name": "frame_bottom",
+      "label": "Frame Bottom Surface",
+      "gloss": "frame bottom surface"
+    },
+    {
+      "name": "frame_holistic",
+      "label": "Holistic Frame",
+      "gloss": "holistic frame"
+    },
+    {
+      "name": "frame_vertical_bar",
+      "label": "Frame Vertical Bar",
+      "gloss": "frame vertical bar"
+    },
+    {
+      "name": "wheel_base",
+      "label": "Wheel Base",
+      "gloss": "a wheel base of a trash can to enable human to drag the trash can and move it by wheels",
+      "parts": [
+        "caster",
+        "wheel_connector"
+      ],
+      "default_part_num": [
+        2,
+        1
+      ]
+    },
+  {
+      "name": "base",
+      "label": "Base",
+      "gloss": "the base of the trash can",
+      "subtypes": ["wheel_base", "foot_base", "leg_base", "surface_base"],
+      "default_type": ["foot_base"]
+    },
+    {
+      "name": "foot_base",
+      "label": "Foot Base",
+      "gloss": "Foot Base",
+      "parts": [
+        "caster",
+        "foot",
+        "surface",
+        "wheel_connector"
+      ],
+      "default_part_num": [
+        0,
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "leg_base",
+      "label": "Leg Base",
+      "gloss": "Leg Base",
+      "parts": [
+        "leg",
+        "caster",
+        "foot",
+        "surface",
+        "wheel_connector"
+      ],
+      "default_part_num": [
+        4,
+        0,
+        4,
+        0,
+        0
+      ]
+    },
+ {
+      "name": "surface_base",
+      "label": "Surface Base",
+      "gloss": "Surface Base",
+      "parts": [
+        "side_surface",
+        "surface"
+      ],
+      "default_part_num": [
+        4,
+        0
+      ]
+    },
+  {
+    "name": "side_surface",
+    "label": "Side Surface",
+    "gloss": "Side Surface"
+  },
+  {
+    "name": "surface",
+    "label": "Surface",
+    "gloss": "Horizontal Surface"
+  },
+  {
+    "name": "foot",
+    "label": "Foot",
+    "gloss": "Foot"
+  },
+  {
+    "name": "leg",
+    "label": "Leg",
+    "gloss": "Leg"
+  },
+      {
+      "name": "wheel_connector",
+      "label": "Wheel Connector",
+      "gloss": "a connector part between two or many wheels"
+    },
+    {
+      "name": "caster",
+      "label": "Wheel Assembly",
+      "gloss": "a pivoting roller attached to the bottom of furniture or trucks or portable machines to make them movable",
+      "parts": [
+        "caster_yoke",
+        "caster_stem",
+        "caster_mounting_plate",
+        "wheel",
+        "brake"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "brake",
+      "label": "Brake",
+      "gloss": "a restraint used to slow or stop a vehicle"
+    },
+    {
+      "name": "caster_yoke",
+      "label": "Caster Yoke",
+      "gloss": "forked part for connecting wheel to mounting plate"
+    },
+    {
+      "name": "caster_stem",
+      "label": "Caster Stem",
+      "gloss": "post part of caster rig"
+    },
+    {
+      "name": "caster_mounting_plate",
+      "label": "Mounting Plate",
+      "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "wheel",
+      "label": "Wheel",
+      "gloss": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)"
+    }
+  ]
+}

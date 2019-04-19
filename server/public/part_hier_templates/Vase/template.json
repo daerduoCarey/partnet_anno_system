@@ -1,0 +1,122 @@
+{
+  "root": "pot",
+  "content": [
+    {
+      "name": "pot",
+      "label": "Pot",
+      "gloss": "a container, typically rounded or cylindrical and of ceramic ware or metal, used for storage, flower or cooking. It can be a jar, vase, flowerpot, or other pots.",
+      "parts": [
+          "body",
+          "base",
+          "containing_things"
+      ],
+      "default_part_num": [
+          1,
+          0,
+          0
+      ]
+    },
+    {
+      "name": "body",
+      "label": "Pot Body",
+      "gloss": "the main body for the pot",
+      "parts": [
+          "lid",
+          "container",
+          "bottom"
+      ],
+      "default_part_num": [
+          0,
+          1,
+          0
+      ]
+    },
+    {
+      "name": "base",
+      "label": "Pot Base",
+      "gloss": "the base for the pot/jar/flowerpot/vase",
+      "parts": [
+          "foot_base",
+          "surface_base"
+      ],
+      "default_part_num": [
+          0,
+          0
+      ]
+    },
+    {
+        "name": "foot_base",
+        "label": "Foot Base",
+        "gloss": "a foot base",
+        "parts": ["foot", "surface"]
+    },
+    {
+        "name": "surface_base",
+        "label": "Surface Base",
+        "gloss": "a surface base",
+        "parts": ["surface"]
+    },
+    {
+        "name": "foot",
+        "label": "Foot",
+        "gloss": "a foot (short let) support"
+    },
+    {
+        "name": "surface",
+        "label": "Surface",
+        "gloss": "a surface"
+    },
+    {
+        "name": "container",
+        "label": "Container",
+        "gloss": "the main bowl container"
+    },
+    {
+        "name": "bottom",
+        "label": "Bottom",
+        "gloss": "the bowl bottom or base"
+    },
+    {
+        "name": "lid",
+        "label": "Lid",
+        "gloss": "a removable or hinged cover for the top of a container"
+    },
+    {
+        "name": "containing_things",
+        "label": "stuffs contained in the pot",
+        "gloss": "the soil, liquid, food or flower contained in the pot",
+        "parts": [
+            "liquid",
+            "food",
+            "soil",
+            "plant"
+        ],
+        "default_part_num": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "liquid",
+        "label": "Liquid",
+        "gloss": "a substance that flows freely but is of constant volume"
+    },
+    {
+        "name": "soil",
+        "label": "Soil",
+        "gloss": "the upper layer of earth in which plants grow, a black or dark brown material typically consisting of a mixture of organic remains, clay, and rock particles"
+    },
+    {
+        "name": "plant",
+        "label": "Plant",
+        "gloss": "a living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses, typically growing in a permanent site"
+    },
+    {
+        "name": "food",
+        "label": "Food",
+        "gloss": "any nutritious substance that people or animals eat"
+    }
+  ]
+}

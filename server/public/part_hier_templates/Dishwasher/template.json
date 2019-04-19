@@ -1,0 +1,239 @@
+{
+  "root": "dishwasher",
+  "content": [
+    {
+      "name": "dishwasher",
+      "label": "Dish Washer",
+      "gloss": "a machine for washing dishes automatically",
+      "parts": [
+          "body",
+          "base",
+          "accessories"
+      ],
+      "default_part_num": [
+          1,
+          0,
+          0
+      ]
+    },
+    {
+        "name": "body",
+        "label": "Body",
+        "gloss": "the main body part for a dishwasher, excluding the base and cords, etc.",
+        "parts": [
+            "frame",
+            "body_interior",
+            "door",
+            "side_controls"
+        ],
+        "default_part_num": [
+            1,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "name": "base",
+        "label": "Base",
+        "gloss": "the base support for the dishwasher",
+        "subtypes": [
+            "foot_base",
+            "surface_base"
+        ],
+        "default_subtype": "foot_base"
+    },
+    {
+        "name": "foot_base",
+        "label": "Foot Base",
+        "gloss": "the foot base for dishwasher that touchs the ground",
+        "parts": [
+            "foot",
+            "caster",
+	    "surface"
+        ],
+        "default_part_num": [
+            4,
+            0,
+	    0
+        ]
+    },
+    {
+        "name": "surface_base",
+        "label": "Surface Base",
+        "gloss": "surface style base (or directly contacting with the ground)",
+        "parts": [
+            "surface"
+        ],
+        "default_part_num": [
+            1
+        ]
+    },
+    {
+        "name": "accessories",
+        "label": "Accessories",
+        "gloss": "all accessories parts, including cord, etc.",
+        "parts": [
+            "cord"
+        ],
+        "default_part_num": [
+            0
+        ]
+    },
+    {
+        "name": "body_interior",
+        "label": "Body Interior",
+        "gloss": "a set of components inside the dishwasher box, including shelf",
+        "parts": [
+            "shelf"
+        ],
+        "default_part_num": [
+            0,
+            0
+        ]
+    },
+    {
+        "name": "door",
+        "label": "Door",
+        "gloss": "the dishwasher door which can be open and food can be put through the door",
+        "parts": [
+            "door_frame",
+            "handle",
+            "glass",
+            "hinge"
+        ],
+        "default_part_num": [
+            1,
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "side_controls",
+        "label": "Side Controls",
+        "gloss": "a set of controls at the side of dishwasher, including buttons and display panels, etc.",
+        "parts": [
+            "control_button",
+            "display_panel",
+            "indicator",
+            "control_panel"
+        ],
+        "default_part_num": [
+            1,
+            0,
+            0,
+            1
+        ]
+    },
+    {
+        "name": "cord",
+        "label": "Cord",
+        "gloss": "a cord or connector line that connects the dishwasher to power"
+    },
+    {
+        "name": "handle",
+        "label": "Handle",
+        "gloss": "a handle that people can use to pull open and off a door"
+    },
+    {
+        "name": "foot",
+        "label": "Foot",
+        "gloss": "a short leg or foot at the very bottom of a dishwasher that touchs the ground"
+    },
+    {
+        "name": "shelf",
+        "label": "Shelf",
+        "gloss": "a flat length of wood or rigid material, attached to a wall or forming part of a piece of furniture, that provides a surface for the storage or display of objects."
+    },
+    {
+        "name": "door_frame",
+        "label": "Door Frame",
+        "gloss": "the outside frame for the dishwasher door, usually made of plastic, etc."
+    },
+    {
+      "name": "hinge",
+      "label": "Hinge",
+      "gloss": "a joint that holds two parts together so that one can swing relative to the other"
+    },
+    {
+        "name": "control_button",
+        "label": "Control Button",
+        "gloss": "an individual control button that uses to set the time, mode for dishwasher"
+    },
+    {
+        "name": "display_panel",
+        "label": "Display Panel",
+        "gloss": "a display planel on the dishwasher indicating the washing time"
+    },
+    {
+        "name": "control_panel",
+        "label": "Control Panel",
+        "gloss": "a control planel on the dishwasher with many buttons, displays on it"
+    },
+    {
+        "name": "indicator",
+        "label": "Indicator",
+        "gloss": "indicator of the status on the panel"
+    },
+    {
+        "name": "frame",
+        "label": "Frame",
+        "gloss": "the exterior dishwasher box, excluding the interior trays, the outside door and dishwasher controls, etc."
+    },
+    {
+        "name": "surface",
+        "label": "Surface",
+        "gloss": "a big surface board"
+    },
+    {
+        "name": "glass",
+        "label": "Glass",
+        "gloss": "a surface of glass"
+    },
+    {
+      "name": "caster",
+      "label": "Wheel Assembly",
+      "gloss": "a pivoting roller attached to the bottom of furniture or trucks or portable machines to make them movable",
+      "parts": [
+        "caster_yoke",
+        "caster_stem",
+        "caster_mounting_plate",
+        "wheel",
+        "brake"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "brake",
+      "label": "Brake",
+      "gloss": "a restraint used to slow or stop a vehicle"
+    },
+    {
+      "name": "caster_yoke",
+      "label": "Caster Yoke",
+      "gloss": "forked part for connecting wheel to mounting plate"
+    },
+    {
+      "name": "caster_stem",
+      "label": "Caster Stem",
+      "gloss": "post part of caster rig"
+    },
+    {
+      "name": "caster_mounting_plate",
+      "label": "Mounting Plate",
+      "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "wheel",
+      "label": "Wheel",
+      "gloss": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)"
+    }
+  ]
+}

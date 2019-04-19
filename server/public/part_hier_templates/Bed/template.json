@@ -1,0 +1,827 @@
+{
+  "root": "bed",
+  "content": [
+    {
+      "name": "bed",
+      "label": "Bed",
+      "gloss": "furniture that is designed for sleeping",
+      "subtypes": ["regular_bed", "bunk_bed", "loft_bed", "hammock"],
+      "default_subtype": "regular_bed"
+    },
+    {
+      "name": "regular_bed",
+      "label": "Regular bed",
+      "gloss": "Regular bed with one unit for sleeping (most beds)",
+      "parts": [
+        "bed_unit"
+      ],
+      "default_part_num": [
+        1
+      ]
+    },
+    {
+      "name": "bunk_bed",
+      "label": "Bunk Bed",
+      "gloss": "Bed with multiple units for sleeping, typically stacked on top of each other",
+      "parts": [
+        "bed_unit",
+        "ladder",
+        "stairs"
+      ],
+      "default_part_num": [
+        2,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "loft_bed",
+      "label": "Loft bed",
+      "gloss": "Bed that is raised up (lofted).  Often the space under the bed is used for other purposed (such as placing a couch or a desk)",
+      "parts": [
+        "bed_unit",
+        "ladder",
+        "stairs",
+        "slide",
+        "furniture"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "hammock",
+      "label": "Hammock",
+      "gloss": "a hanging bed of canvas or rope netting (usually suspended between two trees)",
+      "parts": [
+        "hammock_sleep_area",
+        "hammock_attachment",
+        "hammock_base"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "hammock_sleep_area",
+      "label": "Hammock Sleep Area",
+      "gloss": "Sleeping area for the hammock",
+      "parts": [
+        "hammock_pad",
+        "hammock_netting",
+        "pillow"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "hammock_attachment",
+      "label": "Hammock Attachment",
+      "gloss": "Attachment of hammock to trees",
+      "parts": [
+        "rope",
+        "hook",
+        "support_bar"
+      ],
+      "default_part_num": [
+        5,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "bed_unit",
+      "label": "Bed Unit",
+      "gloss": "A bed unit consists of the mattress and the frame",
+      "parts": [
+        "bed_sleep_area",
+        "bed_frame",
+        "bed_skirt"
+      ],
+      "default_part_num": [
+         1,
+         1,
+         0
+      ]
+    },
+    {
+      "name": "bed_sleep_area",
+      "label": "Bed sleep area",
+      "gloss": "Part of the bed that is for sleeping",
+      "parts": [
+        "mattress",
+        "box_spring",
+        "pillow",
+        "blanket",
+        "bed_scarf"
+      ],
+      "default_part_num": [
+         1,
+         0,
+         2,
+         0,
+         0,
+         0
+      ]
+    },
+    {
+      "name": "bed_frame",
+      "label": "Bed frame",
+      "gloss": "Frame for the bed",
+      "parts": [
+        "headboard",
+        "footboard",
+        "bed_frame_base",
+        "bed_frame_horizontal_surface",
+        "bed_side_surface",
+        "bed_post",
+        "bed_canopy"
+      ],
+      "default_part_num": [
+         1,
+         0,
+         0,
+         1,
+         0,
+         0,
+         0    
+      ]
+    },
+    {
+      "name": "bed_post",
+      "label": "Bedpost",
+      "gloss": "any of 4 vertical supports at the corners of a bedstead"
+    },
+    {
+      "name": "bed_frame_base",
+      "label": "Bed frame base",
+      "gloss": "a support or foundation for bed. It includes but is not limited to leg base, platform base, etc.",
+      "subtypes": [
+        "regular_leg_base",
+        "surface_base",
+        "loft_base"
+      ],
+      "default_subtype": "regular_leg_base"
+    },
+    {
+      "name": "bed_frame_horizontal_surface",
+      "label": "Bed frame horizontal surface",
+      "gloss": "Main horizontal support frame for bed",
+      "parts": [
+        "frame_horizontal_hard_surface",
+        "frame_horizontal_surface_bar"
+      ]
+    },
+    {
+      "name": "frame_horizontal_hard_surface",
+      "label": "Frame horizontal hard surface",
+      "gloss": "a horizontal surface part made of a solid piece of wood/metal/plastic or other hard materials."
+    },
+    {
+      "name": "frame_horizontal_surface_bar",
+      "label": "Frame horizontal surface bar",
+      "gloss": "horizontal bar forming support for the horizontal surface of a bed."
+    },
+    {
+      "name": "bed_side_surface",
+      "label": "Bed Side Surface",
+      "gloss": "Side for a bed side",
+      "parts": [
+        "bed_side_surface_panel",
+        "bed_side_surface_horizontal_bar",
+        "bed_side_surface_vertical_bar",
+        "bed_side_surface_slant_bar"
+      ]
+    },
+    {
+      "name": "bed_side_surface_panel",
+      "label": "Bed Side Surface panel",
+      "gloss": "Side board for a bed frame"
+    },
+    {
+      "name": "bed_side_surface_vertical_bar",
+      "label": "Bed Side Surface Vertical Bar",
+      "gloss": "a near-vertical bar/strip like part that help form the bed side surface"
+    },
+    {
+      "name": "bed_side_surface_horizontal_bar",
+      "label": "Bed Side Surface Horizontal Bar",
+      "gloss": "a near-horizontal bar/strip like part that help form the bed side surface"
+    },
+    {
+      "name": "bed_side_surface_slant_bar",
+      "label": "Bed Side Surface Slant Bar",
+      "gloss": "a slant bar/strip like part that help form the bed side surface. The angle between a slant bar and the ground should be around 30~60 degree. Otherwise, it should be annotated as either vertical or horizontal bars."
+    },
+    {
+      "name": "frame_horizontal_bar",
+      "label": "Frame Horizontal Bar",
+      "gloss": "a near-horizontal bar/strip like part that forms part of the bed frame"
+    },
+    {
+      "name": "frame_vertical_bar",
+      "label": "Frame Vertical Bar",
+      "gloss": "a near-vertical bar/strip like part that forms part of the bed frame"
+    },
+    {
+      "name": "ladder_vertical_bar",
+      "label": "Ladder Vertical Bar",
+      "gloss": "a near-vertical bar/strip like part that forms part of the ladder"
+    },
+    {
+      "name": "frame_slant_bar",
+      "label": "Frame Slant Bar",
+      "gloss": "a slant bar/strip like part that forms part of the bed frame. The angle between a slant bar and the ground should be around 30~60 degree. Otherwise, it should be annotated as either vertical or horizontal bars."
+    },
+    {
+      "name": "frame_connector",
+      "label": "Frame Connector",
+      "gloss": "a part that connects the frame to another parts of the frame."
+    },
+    {
+      "name": "mattress",
+      "label": "Mattress",
+      "gloss": "a large thick pad filled with resilient material and often incorporating coiled springs, used as a bed or part of a bed"
+    },
+    {
+      "name": "box_spring",
+      "label": "Box spring",
+      "gloss": "a coiled bedspring in a frame that is covered with cloth"
+    },
+    {
+      "name": "headboard",
+      "label": "Headboard",
+      "gloss": "a vertical board or panel forming the head of a bedstead",
+      "subtypes": [
+        "headboard_shelves",
+        "headboard_flat"
+      ],
+      "default_subtype": "headboard_flat"
+    },
+    {
+      "name": "headboard_flat",
+      "label": "Headboard flat",
+      "gloss": "a flat headboard",
+      "parts": [
+        "headboard_surface",
+        "headboard_frame",
+        "headboard_lamp"
+      ]
+    },
+    {
+      "name": "headboard_shelves",
+      "label": "Headboard shelves",
+      "gloss": "Headboard that has cabinets and shelves",
+      "parts": [
+        "back_panel",
+        "vertical_divider_panel",
+        "vertical_side_panel",
+        "top_panel",
+        "bottom_panel",
+        "shelf",
+        "cabinet_door",
+        "headboard_lamp"
+      ]
+    },
+    {
+      "name": "headboard_surface",
+      "label": "Headboard surface",
+      "gloss": "the main vertical surface of a headboard",
+      "parts": [
+        "headboard_hard_surface",
+        "headboard_soft_surface",
+        "headboard_surface_vertical_bar",
+        "headboard_surface_horizontal_bar",
+        "headboard_surface_slant_bar",
+        "headboard_complex_decoration"
+      ]
+    },
+    {
+      "name": "headboard_frame",
+      "label": "Headboard frame",
+      "gloss": "a framing part to outline the headboard. It includes sub-parts such as back framing vertical bars, back framing horizontal bars, back framing slant bars, back holistic frames, etc.",
+      "parts": [
+        "frame_vertical_bar",
+        "frame_horizontal_bar",
+        "frame_slant_bar",
+        "holistic_frame"
+      ]
+    },
+    {
+      "name": "footboard",
+      "label": "Footboard",
+      "gloss": "a vertical board or panel forming the foot of a bedstead",
+      "parts": ["footboard_surface", "footboard_frame"]
+    },
+    {
+      "name": "footboard_surface",
+      "label": "Footboard surface",
+      "gloss": "the main vertical surface of a footboard",
+      "parts": [
+        "footboard_hard_surface",
+        "footboard_soft_surface",
+        "footboard_surface_vertical_bar",
+        "footboard_surface_horizontal_bar",
+        "footboard_surface_slant_bar",
+        "footboard_complex_decoration"
+      ]
+    },
+    {
+      "name": "footboard_frame",
+      "label": "Footboard frame",
+      "gloss": "a framing part to outline the footboard. It includes sub-parts such as back framing vertical bars, back framing horizontal bars, back framing slant bars, back holistic frames, etc.",
+      "parts": [
+        "frame_vertical_bar",
+        "frame_horizontal_bar",
+        "frame_slant_bar",
+        "holistic_frame"
+      ]
+    },
+    {
+      "name": "bed_canopy",
+      "label": "Bed canopy",
+      "gloss": "A framed rooflike structure suspended over a bed by the bed rails",
+      "parts": [
+        "canopy_frame_bar",
+        "canopy_top",
+        "bed_curtain"
+      ],
+      "default_part_num": [
+        4,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "canopy_frame_bar",
+      "label": "Canopy frame bar",
+      "gloss": "Bar forming part of the canopy frame"
+    },
+    {
+      "name": "canopy_top",
+      "label": "Canopy top",
+      "gloss": "Top part of the canopy"
+    },
+    {
+      "name": "bed_curtain",
+      "label": "Bed curtain",
+      "gloss": "a curtain hung from a bed canopy"
+    },
+    {
+      "name": "headboard_lamp",
+      "label": "Headboard lamp",
+      "gloss": "A lamp that is attached to a headboard",
+      "parts": [
+        "lamp_base",
+        "light"
+      ]
+    },
+    {
+      "name": "lamp_base",
+      "label": "Lamp base",
+      "gloss": "Lamp base for attachment to furniture"
+    },
+    {
+      "name": "light",
+      "label": "Light",
+      "gloss": "Part of lamp that emits light"
+    },
+    {
+      "name": "cabinet_door",
+      "label": "Cabinet door",
+      "gloss": "Door for a cabinet",
+      "parts": [
+        "cabinet_door_surface",
+        "handle",
+        "hinge"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "cabinet_door_surface",
+      "label": "Cabinet door surface",
+      "gloss": "Surface forming the cabinet door"
+    },
+    {
+      "name": "hinge",
+      "label": "Hinge",
+      "gloss": "a joint that holds two parts together so that one can swing relative to the other"
+    },
+    {
+      "name": "shelf",
+      "label": "Shelf",
+      "gloss": "a support that consists of a horizontal surface for holding objects"
+    },
+    {
+      "name": "handle",
+      "label": "Handle",
+      "gloss": "the appendage to an object that is designed to be held in order to use or move it"
+    },
+    {
+      "name": "top_panel",
+      "label": "Top panel",
+      "gloss": "a board-like part that forms the top most panel of a shelving unit"
+    },
+    {
+      "name": "back_panel",
+      "label": "Back panel",
+      "gloss": "Back panel of a shelf, table, or cabinet"
+    },
+    {
+      "name": "vertical_divider_panel",
+      "label": "Vertical divider panel",
+      "gloss": "Vertical divider panel making one big shelf into smaller cubbies"
+    },
+    {
+      "name": "vertical_side_panel",
+      "label": "Vertical side panel",
+      "gloss": "main vertical support side panel"
+    },
+    {
+      "name": "headboard_hard_surface",
+      "label": "Headboard Hard Surface",
+      "gloss": "a front surface part on the headboard for a sitting human to lean the back on. It is usually made of wood/metal/plastic or other hard materials."
+    },
+    {
+      "name": "headboard_soft_surface",
+      "label": "Headboard Soft Surface",
+      "gloss": "a front surface part on headboard for a sitting human to lean the back on. It is usually made of leather/fabric/soft stuffs."
+    },
+    {
+      "name": "headboard_surface_vertical_bar",
+      "label": "Headboard Surface Vertical Bar",
+      "gloss": "a near-vertical bar/strip like part that help form the headboard surface"
+    },
+    {
+      "name": "headboard_surface_horizontal_bar",
+      "label": "Headboard Surface Horizontal Bar",
+      "gloss": "a near-horizontal bar/strip like part that help form the headboard surface"
+    },
+    {
+      "name": "headboard_surface_slant_bar",
+      "label": "Headboard Surface Slant Bar",
+      "gloss": "a slant bar/strip like part that help form the headboard surface. The angle between a slant bar and the ground should be around 30~60 degree. Otherwise, it should be annotated as either vertical or horizontal bars."
+    },
+    {
+      "name": "headboard_complex_decoration",
+      "label": "Headboard Complex Decoration",
+      "gloss": "a complex decorative part for the headboard that does not belong to simple bars/strips, frames or surfaces. It usually comes with some complicated geometry and artistic design for decorative purposes."
+    },
+    {
+      "name": "footboard_hard_surface",
+      "label": "Footboard Hard Surface",
+      "gloss": "similar to Headboard Hard Surface"
+    },
+    {
+      "name": "footboard_soft_surface",
+      "label": "Footboard Soft Surface",
+      "gloss": "Similar to Headboard Soft Surface"
+    },
+    {
+      "name": "footboard_surface_vertical_bar",
+      "label": "Footboard Surface Vertical Bar",
+      "gloss": "Similar to Headboard Surface Vertical Bar"
+    },
+    {
+      "name": "footboard_surface_horizontal_bar",
+      "label": "Footboard Surface Horizontal Bar",
+      "gloss": "Similar to Headboard Surface Horizontal bar"
+    },
+    {
+      "name": "footboard_surface_slant_bar",
+      "label": "Footboard Surface Slant Bar",
+      "gloss": "Similar to HeadBoard Surface Slant Bar"
+    },
+    {
+      "name": "footboard_complex_decoration",
+      "label": "Footboard Complex Decoration",
+      "gloss": "Similar to Headboard Complex Decoration"
+    },
+    {
+      "name": "holistic_frame",
+      "label": "Holistic Frame",
+      "gloss": "a framing structure for bed that is usually curved, continuous and indivisible into smaller bars/strips"
+    },
+    {
+      "name": "pillow",
+      "label": "Pillow",
+      "gloss": "an additional/removable cushion to support the head of a sleeping person, or to support the back or hip of a sitting person. Common types of pillow include rectangular pillow, circular pillow, donut pillow, etc."
+    },
+    {
+      "name": "blanket",
+      "label": "Blanket",
+      "gloss": "bedding that keeps a person warm in bed"
+    },
+    {
+      "name": "bed_scarf",
+      "label": "Bed scarf",
+      "gloss": "Throw-like piece of material draped across the foot of the bed"
+    },
+    {
+      "name": "bed_skirt",
+      "label": "Bed skirt",
+      "gloss": "A decorative drapery attached to the frame of a bed"
+    },
+    {
+      "name": "rope",
+      "label": "Rope",
+      "gloss": "a strong line"
+    },
+    {
+      "name": "hook",
+      "label": "Hook",
+      "gloss": "a piece of metal or other material, curved or bent back at an angle, for catching hold of or hanging things on"
+    },
+    {
+      "name": "hammock_pad",
+      "label": "Hammock pad",
+      "gloss": "hammock bedding pad that is solid"
+    },
+    {
+      "name": "hammock_netting",
+      "label": "Hammock netting",
+      "gloss": "hammock surface with open-meshed material"
+    },
+    {
+      "name": "hammock_base",
+      "label": "Hammock base",
+      "gloss": "hammock base"
+    },
+    {
+      "name": "regular_leg_base",
+      "label": "Regular Leg Base",
+      "gloss": "a leg base that is composed of several vertical leg-like supporting sub-parts, possibly with several connections between legs, and contacts the ground by the legs, some horizontal bars or the foot/caster structure on the legs",
+      "parts": [
+        "leg",
+        "foot",
+        "caster",
+        "bar_stretcher",
+        "circular_stretcher",
+        "runner"
+      ],
+      "default_part_num": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "loft_base",
+      "label": "Loft Base",
+      "gloss": "a loft base raises the bed up so that a storage or working area can be placed below the bed",
+      "parts": [
+        "leg",
+        "foot",
+        "caster",
+        "bar_stretcher",
+        "side_panel"
+      ],
+      "default_part_num": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "bar_stretcher",
+      "label": "Bar Stretcher",
+      "gloss": "a supporting part joining the legs that is of bar/strip like shape"
+    },
+    {
+      "name": "circular_stretcher",
+      "label": "Circular Stretcher",
+      "gloss": "a supporting part joining the legs that is of circular shape"
+    },
+    {
+      "name": "stairs",
+      "label": "Stairs",
+      "gloss": "a set of steps leading from one level to another",
+      "parts": [
+        "wall_side_panel",
+        "step_horizontal_surface",
+        "step_vertical_surface"
+      ],
+      "default_part_num": [
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "step_horizontal_surface",
+      "label": "Step horizontal surface",
+      "gloss": "Horizontal surface that is part of a step (also called tread)"
+    },
+    {
+      "name": "step_vertical_surface",
+      "label": "Step vertical surface",
+      "gloss": "Vertical surface that is part of a step (also called riser)"
+    },
+    {
+      "name": "wall_side_panel",
+      "label": "Wall side panel",
+      "gloss": "Very large side panel that forms a wall-like surface"
+    },
+    {
+      "name": "ladder",
+      "label": "Ladder",
+      "gloss": "steps consisting of two parallel members connected by rungs; for climbing up or down",
+      "parts": [
+        "ladder_vertical_bar",
+        "rung",
+        "foot"
+      ],
+      "default_part_num": [
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "rung",
+      "label": "Rung",
+      "gloss": "a horizontal support on a ladder for a person's foot"
+    },
+    {
+      "name": "slide",
+      "label": "Slide",
+      "gloss": "a structure with a smooth sloping surface for something to slide down",
+      "parts": [
+        "slide_surface",
+        "slide_side"
+      ],
+      "default_part_num": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "slide_surface",
+      "label": "Slide surface",
+      "gloss": "sloping surface on which something can slide down"
+    },
+    {
+      "name": "slide_side",
+      "label": "Slide side",
+      "gloss": "Side panels of a slide (used to prevent the sliding object from falling off)"
+    },
+    {
+      "name": "runner",
+      "label": "Runner",
+      "gloss": "horizontal part that connects the end of legs and contacts the ground"
+    },
+    {
+      "name": "rocker",
+      "label": "Rocker",
+      "gloss": "a curved support that permits the supported object to rock to and from"
+    },
+    {
+      "name": "short_leg",
+      "label": "Short Leg",
+      "gloss": "a very short leg that connects the bed and the bed foot/wheels"
+    },
+    {
+      "name": "surface_base",
+      "label": "Surface Base",
+      "gloss": "a bed base that contacts the ground with some big area. There could be some vertical leg parts.",
+      "parts": [
+        "bottom_panel",
+        "side_panel",
+        "drawer",
+        "leg",
+        "foot",
+        "caster",
+        "bar_stretcher",
+        "circular_stretcher"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "bottom_panel",
+      "label": "Bottom panel",
+      "gloss": "a board-like part that touches the ground totally"
+    },
+    {
+      "name": "side_panel",
+      "label": "Side Panel",
+      "gloss": "a board-like part that supports the bed"
+    },
+    {
+      "name": "leg",
+      "label": "Leg",
+      "gloss": "one of the supports for a piece of furniture"
+    },
+    {
+      "name": "foot",
+      "label": "Foot",
+      "gloss": "a support resembling a pedal extremity"
+    },
+    {
+      "name": "caster",
+      "label": "Wheel Assembly",
+      "gloss": "a pivoting roller attached to the bottom of furniture or trucks or portable machines to make them movable",
+      "parts": [
+        "caster_yoke",
+        "caster_stem",
+        "caster_mounting_plate",
+        "wheel",
+        "brake"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "brake",
+      "label": "Brake",
+      "gloss": "a restraint used to slow or stop a vehicle"
+    },
+    {
+      "name": "caster_yoke",
+      "label": "Caster Yoke",
+      "gloss": "forked part for connecting wheel to mounting plate"
+    },
+    {
+      "name": "caster_stem",
+      "label": "Caster Stem",
+      "gloss": "post part of caster rig"
+    },
+    {
+      "name": "caster_mounting_plate",
+      "label": "Mounting Plate",
+      "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "wheel",
+      "label": "Wheel",
+      "gloss": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)"
+    },
+    {
+      "name": "drawer",
+      "label": "Drawer",
+      "gloss": "a boxlike container in a piece of furniture; made so as to slide in and out"
+    },
+    {
+      "name": "furniture",
+      "label": "Furniture",
+      "gloss": "Other furniture (typically underneath the loft bed)",
+      "subtypes": [
+        "cabinet",
+        "table",
+        "chair"
+      ]
+    },
+    {
+      "name": "cabinet",
+      "label": "Cabinet",
+      "gloss": "Storage furniture with shelves, drawers, and/or cabinet doors"
+    },
+    {
+      "name": "table",
+      "label": "Table",
+      "gloss": "a piece of furniture with a writing surface and usually drawers or other compartments"
+    },
+    {
+      "name": "chair",
+      "label": "Chair",
+      "gloss": "a seat for people, typically made of wood or stone."
+    },
+    {
+      "name": "support_bar",
+      "label": "Support Bar",
+      "gloss": "part of hammock attachment"
+    }
+  ]
+}

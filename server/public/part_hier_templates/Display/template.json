@@ -1,0 +1,115 @@
+{
+  "root": "display",
+  "content": [
+    {
+      "name": "display",
+      "label": "Display",
+      "gloss": "display monitor of a computer",
+      "parts": [
+        "display_screen",
+        "base",
+        "accessories"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "base",
+      "label": "Base",
+      "gloss": "supporting base of the display",
+      "subtypes": [
+          "surface_base",
+          "foot_base"
+      ],
+      "default_subtype": "surface_base"
+    },
+    {
+        "name": "surface_base",
+        "label": "Surface Base",
+        "gloss": "a surface base for the display; the display touchs the table/ground via a surface part",
+        "parts": [
+            "base_support",
+            "surface"
+        ],
+        "default_part_num": [
+            1,
+            1
+        ]
+    },
+    {
+      "name": "display_screen",
+      "label": "Screen",
+      "gloss": "main part of the display",
+      "parts": [
+        "frame",
+        "screen",
+        "button"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "base_support",
+      "label": "Base Support",
+      "gloss": "connector between the base and the screen side, usually a supporting structure"
+    },
+    {
+      "name": "accessories",
+      "label": "Accessories",
+      "gloss": "the accessories of the display",
+      "parts": [
+        "cord"
+      ],
+      "default_part_num": [
+           1
+      ]
+    },
+    {
+      "name": "surface",
+      "label": "Surface",
+      "gloss": "a big surface board"
+    },
+    {
+      "name": "foot_base",
+      "label": "Foot Base",
+      "gloss": "the base with several foots",
+      "parts": [
+        "foot"
+      ],
+      "default_part_num": [
+        0
+      ]
+    },
+    {
+      "name": "frame",
+      "label": "Frame",
+      "gloss": "frame around the screen of the display"
+    },
+    {
+      "name": "screen",
+      "label": "Screen",
+      "gloss": "screen of the display"
+    },
+    {
+      "name": "button",
+      "label": "Button",
+      "gloss": "the button of the display for controlling"
+    },
+    {
+      "name": "cord",
+      "label": "Cord",
+      "gloss": "the cord of the display"
+    },
+    {
+      "name": "foot",
+      "label": "Foot",
+      "gloss": "a foot of the foot base"
+    }
+  ]
+}

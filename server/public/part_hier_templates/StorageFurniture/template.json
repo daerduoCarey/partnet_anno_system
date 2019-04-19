@@ -1,0 +1,553 @@
+{
+  "root": "storage_furniture",
+  "content": [
+    {
+      "name": "storage_furniture",
+      "label": "Storage Furniture",
+      "gloss": "furniture that contains many shelves, drawers, boxes to store stuffs",
+      "subtypes": [
+        "cabinet",
+        "chest"
+      ],
+      "default_subtype": "cabinet"
+    },
+    {
+      "name": "cabinet",
+      "label": "Cabinet",
+      "gloss": "furniture that has shelves and drawers",
+      "parts": [
+        "countertop",
+        "mirror",
+        "glass",
+        "sink",
+        "cabinet_frame",
+        "cabinet_base",
+        "shelf",
+        "cabinet_door",
+        "drawer",
+        "object",
+        "appliance"
+      ],
+      "default_part_num": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mirror",
+      "label": "Mirror",
+      "gloss": "a reflective surface, now typically of glass coated with a metal amalgam, that reflects a clear image.",
+      "parts": [
+        "mirror_surface",
+        "mirror_frame"
+      ],
+      "default_part_num": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "mirror_frame",
+      "label": "Mirror Frame",
+      "gloss": "Frame of a mirror"
+    },
+    {
+      "name": "mirror_surface",
+      "label": "Mirror surface",
+      "gloss": "The reflective surface of the mirror"
+    },
+    {
+      "name": "glass",
+      "label": "Glass",
+      "gloss": "glass"
+    },
+    {
+      "name": "chest",
+      "label": "Chest",
+      "gloss": "Box with a lid; used for storage; usually large and sturdy",
+      "parts": [
+        "chest_lid",
+        "chest_box",
+        "chest_base",
+        "handle"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "chest_lid",
+      "label": "Chest lid",
+      "gloss": "Lid of a chest",
+      "parts": [
+        "lid_surface",
+        "hinge",
+        "buckle"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "lid_surface",
+      "label": "Lid surface",
+      "gloss": "Surface of a lid"
+    },
+    {
+      "name": "chest_box",
+      "label": "Chest box",
+      "gloss": "Box part of a chest"
+    },
+    {
+      "name": "appliance",
+      "label": "Appliance",
+      "gloss": "Appliance",
+      "subtypes": [
+        "oven_range",
+        "microwave",
+        "dishwasher",
+        "refrigerator"
+      ],
+      "default_subtype": [
+        "oven_range"
+      ]
+    },
+    {
+      "name": "oven_range",
+      "label": "Oven range",
+      "gloss": "Oven with stove for cooking"
+    },
+    {
+      "name": "microwave",
+      "label": "Microwave",
+      "gloss": "an oven that uses microwaves to cook or heat food"
+    },
+    {
+      "name": "dishwasher",
+      "label": "Dishwasher",
+      "gloss": "a machine for washing dishes automatically"
+    },
+    {
+      "name": "refrigerator",
+      "label": "Refrigerator",
+      "gloss": "an appliance or compartment that is artificially kept cool and used to store food and drink"
+    },
+    {
+      "name": "sink",
+      "label": "Sink",
+      "gloss": "plumbing fixture consisting of a water basin fixed to a wall or floor and having a drainpipe",
+      "parts": [
+        "washbasin",
+        "faucet",
+        "drain",
+        "water"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "washbasin",
+      "label": "Washbasin",
+      "gloss": "a bowl for washing"
+    },
+    {
+      "name": "faucet",
+      "label": "Faucet",
+      "gloss": "a device by which a flow of liquid or gas from a pipe or container can be controlled"
+    },
+    {
+      "name": "drain",
+      "label": "Drain",
+      "gloss": "a channel or pipe carrying off surplus liquid, especially rainwater or liquid waste"
+    },
+    {
+      "name": "water",
+      "label": "Water",
+      "gloss": "Liquid substance"
+    },
+    {
+      "name": "cabinet_frame",
+      "label": "Cabinet frame",
+      "gloss": "the frame of the cabinet",
+      "parts": [
+        "vertical_side_panel",
+        "vertical_front_panel",
+        "vertical_divider_panel",
+        "back_panel",
+        "bottom_panel",
+        "top_panel",
+        "frame_vertical_bar",
+        "frame_horizontal_bar",
+        "frame_slant_bar"
+      ],
+      "default_part_num": [
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "countertop",
+      "label": "Countertop",
+      "gloss": "the horizontal work surface that is frequently installed upon and supported by cabinets (typically found in kitchens, bathrooms, workareas)"
+    },
+    {
+      "name": "shelf",
+      "label": "Shelf",
+      "gloss": "a support that consists of a horizontal surface for holding objects"
+    },
+    {
+      "name": "top_panel",
+      "label": "Top panel",
+      "gloss": "a board-like part that forms the top most panel of a shelving unit"
+    },
+    {
+      "name": "bottom_panel",
+      "label": "Bottom panel",
+      "gloss": "a board-like part that forms the bottom most panel of a cabinet or table, often will touch the ground totally"
+    },
+    {
+      "name": "back_panel",
+      "label": "Back panel",
+      "gloss": "Back panel of a bookcase, table, or cabinet"
+    },
+    {
+      "name": "base_side_panel",
+      "label": "Base side panel",
+      "gloss": "Side panel for a base"
+    },
+    {
+      "name": "vertical_divider_panel",
+      "label": "Vertical divider panel",
+      "gloss": "Vertical divider panel making one big shelf into smaller cubbies"
+    },
+    {
+      "name": "vertical_side_panel",
+      "label": "Vertical side panel",
+      "gloss": "main vertical support side panel"
+    },
+    {
+      "name": "vertical_front_panel",
+      "label": "Vertical front panel",
+      "gloss": "main vertical support front panel"
+    },
+    {
+      "name": "frame_vertical_bar",
+      "label": "Vertical support bar",
+      "gloss": "a near-vertical bar/strip like part that help form the frame"
+    },
+    {
+      "name": "frame_horizontal_bar",
+      "label": "Horizontal support bar",
+      "gloss": "a near-horizontal bar/strip like part that help form the frame"
+    },
+    {
+      "name": "frame_slant_bar",
+      "label": "Frame slant bar",
+      "gloss": "a slant bar/strip like part that help form the frame. The angle between a slant bar and the ground should be around 30~60 degree. Otherwise, it should be annotated as either vertical or horizontal bars."
+    },
+    {
+      "name": "cabinet_door",
+      "label": "Cabinet door",
+      "gloss": "Door for a cabinet",
+      "parts": [
+        "cabinet_door_surface",
+        "handle",
+        "glass",
+        "hinge"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "cabinet_door_surface",
+      "label": "Cabinet door surface",
+      "gloss": "Surface forming the cabinet door"
+    },
+    {
+      "name": "hinge",
+      "label": "Hinge",
+      "gloss": "a joint that holds two parts together so that one can swing relative to the other"
+    },
+    {
+      "name": "handle",
+      "label": "Handle",
+      "gloss": "the appendage to an object that is designed to be held in order to use or move it"
+    },
+    {
+      "name": "object",
+      "label": "Object",
+      "gloss": "Various objects found on shelves",
+      "subtypes": [
+        "book",
+        "television",
+        "clothes",
+        "shoes",
+        "vase",
+        "picture_frame"
+      ]
+    },
+    {
+      "name": "book",
+      "label": "Book",
+      "gloss": "a written or printed work consisting of pages glued or sewn together along one side and bound in covers."
+    },
+    {
+      "name": "television",
+      "label": "Television",
+      "gloss": "a device that receives television signals and reproduces them on a screen."
+    },
+    {
+      "name": "clothes",
+      "label": "Clothes",
+      "gloss": "items worn to cover the body."
+    },
+    {
+      "name": "shoes",
+      "label": "Shoes",
+      "gloss": "a covering for the foot, typically made of leather, with a sturdy sole and not reaching above the ankle."
+    },
+    {
+      "name": "vase",
+      "label": "Vase",
+      "gloss": "a decorative container, typically made of glass or china and used as an ornament or for displaying cut flowers."
+    },
+    {
+      "name": "picture_frame",
+      "label": "Picture frame",
+      "gloss": "A framed picture or photo"
+    },
+    {
+      "name": "drawer",
+      "label": "Drawer",
+      "gloss": "a boxlike container in a piece of furniture; made so as to slide in and out",
+      "parts": [
+        "drawer_box",
+        "handle",
+        "drawer_rails",
+        "drawer_slider"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "drawer_box",
+      "label": "Drawer box",
+      "gloss": "The box part of a drawer (most of the time, only the drawer front will be present for annotation)",
+      "parts": [
+        "drawer_front",
+        "drawer_side",
+        "drawer_back",
+        "drawer_bottom"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "drawer_front",
+      "label": "Drawer front",
+      "gloss": "Front of the drawer"
+    },
+    {
+      "name": "drawer_side",
+      "label": "Drawer side",
+      "gloss": "Side of the drawer"
+    },
+    {
+      "name": "drawer_bottom",
+      "label": "Drawer bottom",
+      "gloss": "Bottom of the drawer"
+    },
+    {
+      "name": "drawer_back",
+      "label": "Drawer back",
+      "gloss": "Back of the drawer"
+    },
+    {
+      "name": "drawer_rails",
+      "label": "Drawer rails",
+      "gloss": "Rails on which the drawer goes"
+    },
+    {
+      "name": "drawer_slider",
+      "label": "Drawer slider",
+      "gloss": "Sliders on the drawer which attach to the rails"
+    },
+    {
+      "name": "cabinet_base",
+      "label": "Cabinet Base",
+      "gloss": "a support or foundation for base. It includes but is not limited to leg base, foot base, etc.",
+      "subtypes": [
+        "regular_leg_base",
+        "foot_base",
+        "panel_base"
+      ],
+      "default_subtype": "foot_base"
+    },
+    {
+      "name": "chest_base",
+      "label": "Chest Base",
+      "gloss": "a support or foundation for base. It includes but is not limited to leg base, foot base, etc.",
+      "subtypes": [
+        "foot_base",
+        "panel_base"
+      ],
+      "default_subtype": "foot_base"
+    },
+    {
+      "name": "regular_leg_base",
+      "label": "Regular Leg Base",
+      "gloss": "a shelving base that is composed of several vertical leg-like supporting sub-parts, possibly with several connections between legs, and contacts the ground by the legs, some horizontal bars or the foot/caster structure on the legs",
+      "parts": [
+        "leg",
+        "foot",
+        "caster",
+        "bar_stretcher"
+      ],
+      "default_part_num": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "bar_stretcher",
+      "label": "Bar Stretcher",
+      "gloss": "a supporting part joining the legs that is of bar/strip like shape"
+    },
+    {
+      "name": "foot_base",
+      "label": "Foot Base",
+      "gloss": "a shelving base that contacts the ground via foots/casters. There is no long vertical leg in the base.",
+      "parts": [
+        "short_leg",
+        "foot",
+        "caster"
+      ],
+      "default_part_num": [
+        0,
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "short_leg",
+      "label": "Short Leg",
+      "gloss": "a very short leg that connects the table seat and the table foot/wheels"
+    },
+    {
+      "name": "leg",
+      "label": "Leg",
+      "gloss": "one of the supports for a piece of furniture"
+    },
+    {
+      "name": "foot",
+      "label": "Foot",
+      "gloss": "a support resembling a pedal extremity"
+    },
+    {
+      "name": "panel_base",
+      "label": "Panel Base",
+      "gloss": "a shelving base that contacts the ground via panels/boards.",
+      "parts": [
+        "base_side_panel",
+        "bottom_panel"
+      ],
+      "default_part_num": [
+        4,
+        0
+      ]
+    },
+    {
+      "name": "caster",
+      "label": "Wheel Assembly",
+      "gloss": "a pivoting roller attached to the bottom of furniture or trucks or portable machines to make them movable",
+      "parts": [
+        "caster_yoke",
+        "caster_stem",
+        "caster_mounting_plate",
+        "wheel",
+        "brake"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "brake",
+      "label": "Brake",
+      "gloss": "a restraint used to slow or stop a vehicle"
+    },
+    {
+      "name": "caster_yoke",
+      "label": "Caster Yoke",
+      "gloss": "forked part for connecting wheel to mounting plate"
+    },
+    {
+      "name": "caster_stem",
+      "label": "Caster Stem",
+      "gloss": "post part of caster rig"
+    },
+    {
+      "name": "caster_mounting_plate",
+      "label": "Mounting Plate",
+      "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "wheel",
+      "label": "Wheel",
+      "gloss": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)"
+    },
+    {
+      "name": "buckle",
+      "label": "Buckle",
+      "gloss": "buckle to close the lid"
+    }
+  ]
+}

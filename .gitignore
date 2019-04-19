@@ -1,8 +1,0 @@
-.DS_STORE
-.idea
-*.obj
-*.ply
-*.mp4
-part_hier_templates
-partnet_videos
-dump.sql

@@ -1,0 +1,825 @@
+{
+  "root": "table",
+  "content": [
+    {
+      "name": "table",
+      "label": "Table",
+      "gloss": "a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs",
+      "subtypes": [
+        "regular_table",
+        "desk",
+        "game_table",
+        "picnic_table"
+      ],
+      "default_subtype": "regular_table"
+    },
+    {
+      "name": "regular_table",
+      "label": "Regular table",
+      "gloss": "Table without cabinets or drawers",
+      "parts": [
+        "tabletop",
+        "table_base",
+        "object"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "desk",
+      "label": "Desk",
+      "gloss": "a piece of furniture with a writing surface and usually drawers or other compartments",
+      "parts": [
+        "tabletop",
+        "drawer_base",
+        "hutch",
+        "object"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "game_table",
+      "label": "Game table",
+      "gloss": "Special table for pool, ping pong, cards, foosball, air hockey, or other games",
+      "subtypes": [
+        "pool_table",
+        "ping_pong_table",
+        "card_table",
+        "foosball_table",
+        "airhockey_table"
+      ],
+      "default_subtype": "pool_table"
+    },
+    {
+      "name": "picnic_table",
+      "label": "Picnic table",
+      "gloss": "Table with benches or chairs for picnics",
+      "parts": [
+        "regular_table",
+        "bench",
+        "bench_connector"
+      ],
+      "default_part_num": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "bench",
+      "label": "Bench",
+      "gloss": "a long seat for more than one person"
+    },
+    {
+      "name": "bench_connector",
+      "label": "Bench Connector",
+      "gloss": "a connecting part that connects the chair/bench to the table"
+    },
+    {
+      "name": "pool_table",
+      "label": "Pool table",
+      "gloss": "Table for playing pool",
+      "parts": [
+        "tabletop",
+        "table_base",
+        "pool_cue_stick",
+        "pool_ball",
+        "pool_ball_rack"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ping_pong_table",
+      "label": "Ping-pong table",
+      "gloss": "Table for playing ping pong",
+      "parts": [
+        "tabletop",
+        "table_base",
+        "ping_pong_net",
+        "ping_pong_paddle"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "card_table",
+      "label": "Card table",
+      "gloss": "Table for playing cards",
+      "parts": [
+        "tabletop",
+        "table_base"
+      ],
+      "default_part_num": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "foosball_table",
+      "label": "Foosball table",
+      "gloss": "Table for playing foosball",
+      "parts": [
+        "tabletop",
+        "table_base",
+        "foosball_rod",
+        "foosball_handle",
+        "foosball_player"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "airhockey_table",
+      "label": "Airhockey table",
+      "gloss": "Table for playing airhockey",
+      "parts": [
+        "tabletop",
+        "table_base",
+        "airhockey_striker",
+        "airhockey_puck"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "tabletop",
+      "label": "Tabletop",
+      "gloss": "the top horizontal work surface of a table",
+      "parts": [
+        "tabletop_surface",
+        "tabletop_frame",
+        "tabletop_dropleaf"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "tabletop_surface",
+      "label": "Tabletop surface",
+      "gloss": "surface of a tabletop",
+      "parts": ["bar", "board", "circle", "glass"]
+    },
+    {
+      "name": "tabletop_dropleaf",
+      "label": "Tabletop dropleaf",
+      "gloss": "a hinged section (leaf) of a tabletop that can be folded down (dropped)",
+      "parts": ["bar", "board", "circle", "glass"]
+    },
+    {
+      "name": "tabletop_frame",
+      "label": "Tabletop frame",
+      "gloss": "frame of a tabletop",
+      "parts": ["bar", "board", "circle"]
+    },
+    {
+      "name": "airhockey_striker",
+      "label": "Airhockey striker",
+      "gloss": "A striker (sometimes called a goalie, paddle or mallet ) is a hand held piece used to strike the airhockey puck.  It consists of a simple handle attached to a flat surface that will usually lie flush with the surface of the table. "
+    },
+    {
+      "name": "airhockey_puck",
+      "label": "Airhockey puck",
+      "gloss": "Disc shaped piece that is to be pushed by the stricker into the goal"
+    },
+    {
+      "name": "ping_pong_net",
+      "label": "Ping-pong net",
+      "gloss": "Net dividing the ping-pong table into two"
+    },
+    {
+      "name": "ping_pong_paddle",
+      "label": "Ping-pong paddle",
+      "gloss": "Paddle for playing ping pong"
+    },
+    {
+      "name": "pool_cue_stick",
+      "label": "Pool cue stick",
+      "gloss": "sports implement consisting of a tapering rod used to strike a cue ball in pool or billiards"
+    },
+    {
+      "name": "pool_ball",
+      "label": "Pool ball",
+      "gloss": "Round ball for pool"
+    },
+    {
+      "name": "pool_ball_rack",
+      "label": "Pool ball rack",
+      "gloss": "Rack for arranging pool balls, typically triangle shaped"
+    },
+    {
+      "name": "foosball_rod",
+      "label": "Foosball rod",
+      "gloss": "Rod on which the little foosball players are placed"
+    },
+    {
+      "name": "foosball_handle",
+      "label": "Foosball handle",
+      "gloss": "Handle for turning the foosball handle"
+    },
+    {
+      "name": "foosball_player",
+      "label": "Foosball player",
+      "gloss": "Little foosball player that is fitted on the rod and turned"
+    },
+    {
+      "name": "hutch",
+      "label": "Hutch",
+      "gloss": "set of shelves on top of the desk for storage",
+      "parts": [
+        "shelf",
+        "back_panel",
+        "vertical_divider_panel",
+        "vertical_side_panel",
+        "vertical_front_panel",
+        "top_panel",
+        "cabinet_door",
+        "drawer"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "shelf",
+      "label": "Shelf",
+      "gloss": "a support that consists of a horizontal surface for holding objects"
+    },
+    {
+      "name": "top_panel",
+      "label": "Top panel",
+      "gloss": "a board-like part that forms the top most panel of a shelving unit"
+    },
+    {
+      "name": "bottom_panel",
+      "label": "Bottom panel",
+      "gloss": "a board-like part that forms the bottom most panel of a cabinet or table, often will touch the ground totally"
+    },
+    {
+      "name": "back_panel",
+      "label": "Back panel",
+      "gloss": "Back panel of a shelf, table, or cabinet"
+    },
+    {
+      "name": "vertical_divider_panel",
+      "label": "Vertical divider panel",
+      "gloss": "Vertical divider panel making one big shelf into smaller cubbies"
+    },
+    {
+      "name": "vertical_side_panel",
+      "label": "Vertical side panel",
+      "gloss": "main vertical support side panel"
+    },
+    {
+      "name": "vertical_front_panel",
+      "label": "Vertical Front Panel",
+      "gloss": "main vertical support front panel"
+    },
+    {
+      "name": "base_side_panel",
+      "label": "Base side panel",
+      "gloss": "Side panel for a base"
+    },
+    {
+      "name": "bar",
+      "label": "Bar",
+      "gloss": "A bar-like shape"
+    },
+    {
+      "name": "board",
+      "label": "Board",
+      "gloss": "A board-like shape"
+    },
+    {
+      "name": "circle",
+      "label": "Circle",
+      "gloss": "A circle-like shape"
+    },
+    {
+      "name": "glass",
+      "label": "Glass",
+      "gloss": "A board of glass"
+    },
+    {
+      "name": "cabinet_door",
+      "label": "Cabinet door",
+      "gloss": "Door for a cabinet",
+      "parts": [
+        "cabinet_door_surface",
+        "handle",
+        "hinge",
+        "glass"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "cabinet_door_surface",
+      "label": "Cabinet door surface",
+      "gloss": "Surface forming the cabinet door"
+    },
+    {
+      "name": "hinge",
+      "label": "Hinge",
+      "gloss": "a joint that holds two parts together so that one can swing relative to the other"
+    },
+    {
+      "name": "handle",
+      "label": "Handle",
+      "gloss": "the appendage to an object that is designed to be held in order to use or move it"
+    },
+    {
+      "name": "object",
+      "label": "Object",
+      "gloss": "Various objects found on shelves",
+      "subtypes": [
+        "book",
+        "television",
+        "clothes",
+        "shoes",
+        "vase",
+        "picture_frame"
+      ]
+    },
+    {
+      "name": "book",
+      "label": "Book",
+      "gloss": "a written or printed work consisting of pages glued or sewn together along one side and bound in covers."
+    },
+    {
+      "name": "television",
+      "label": "Television",
+      "gloss": "a device that receives television signals and reproduces them on a screen."
+    },
+    {
+      "name": "clothes",
+      "label": "Clothes",
+      "gloss": "items worn to cover the body."
+    },
+    {
+      "name": "shoes",
+      "label": "Shoes",
+      "gloss": "a covering for the foot, typically made of leather, with a sturdy sole and not reaching above the ankle."
+    },
+    {
+      "name": "vase",
+      "label": "Vase",
+      "gloss": "a decorative container, typically made of glass or china and used as an ornament or for displaying cut flowers."
+    },
+    {
+      "name": "picture_frame",
+      "label": "Picture frame",
+      "gloss": "A framed picture or photo"
+    },
+    {
+      "name": "drawer",
+      "label": "Drawer",
+      "gloss": "a boxlike container in a piece of furniture; made so as to slide in and out",
+      "parts": [
+        "drawer_box",
+        "handle",
+        "drawer_rails",
+        "drawer_slider"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "drawer_box",
+      "label": "Drawer box",
+      "gloss": "The box part of a drawer (most of the time, only the drawer front will be present for annotation)",
+      "parts": [
+        "drawer_front",
+        "drawer_side",
+        "drawer_back",
+        "drawer_bottom"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "drawer_front",
+      "label": "Drawer front",
+      "gloss": "Front of the drawer"
+    },
+    {
+      "name": "drawer_side",
+      "label": "Drawer side",
+      "gloss": "Side of the drawer"
+    },
+    {
+      "name": "drawer_bottom",
+      "label": "Drawer bottom",
+      "gloss": "Bottom of the drawer"
+    },
+    {
+      "name": "drawer_back",
+      "label": "Drawer back",
+      "gloss": "Back of the drawer"
+    },
+    {
+      "name": "drawer_rails",
+      "label": "Drawer rails",
+      "gloss": "Rails on which the drawer goes"
+    },
+    {
+      "name": "drawer_slider",
+      "label": "Drawer slider",
+      "gloss": "Sliders on the drawer which attach to the rails"
+    },
+    {
+      "name": "keyboard_tray",
+      "label": "Keyboard tray",
+      "gloss": "Tray for holding the keyboard",
+      "parts": [
+        "keyboard_tray_surface",
+        "keyboard_tray_rails",
+        "keyboard_tray_slider"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "keyboard_tray_surface",
+      "label": "Keyboard tray surface",
+      "gloss": "Main surface of the keyboard tray"
+    },
+    {
+      "name": "keyboard_tray_rails",
+      "label": "Keyboard tray rails",
+      "gloss": "Rails on which the keyboard bray goes"
+    },
+    {
+      "name": "keyboard_tray_slider",
+      "label": "Keyboard tray slider",
+      "gloss": "Sliders on the keyboard tray which attach to the rails"
+    },
+    {
+      "name": "table_base",
+      "label": "Table Base",
+      "gloss": "a support or foundation for table. It includes but is not limited to leg base, swivel base, pedestal base, foot base, etc.",
+      "subtypes": [
+        "regular_leg_base",
+        "star_leg_base",
+        "pedestal_base",
+        "shelving_base",
+        "drawer_base",
+        "irregular_base"
+      ],
+      "default_subtype": "regular_leg_base"
+    },
+    {
+      "name": "regular_leg_base",
+      "label": "Regular Leg Base",
+      "gloss": "a table base that is composed of several vertical leg-like supporting sub-parts and no drawers, cabinets, or shelves. There can be several connections between legs, and contacts the ground by the legs, some horizontal bars or the foot/caster structure on the legs",
+      "parts": [
+        "leg",
+        "foot",
+        "caster",
+        "bar_stretcher",
+        "circular_stretcher",
+        "runner",
+        "tabletop_connector"
+      ],
+      "default_part_num": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "shelving_base",
+      "label": "Shelving Base",
+      "gloss": "a table base that has shelves or a bottom panel that contacts the ground with some big area.",
+      "parts": [
+        "shelf",
+        "keyboard_tray",
+        "back_panel",
+        "vertical_side_panel",
+        "vertical_front_panel",
+        "vertical_divider_panel",
+        "base_side_panel",
+        "bottom_panel",
+        "leg",
+        "foot",
+        "caster",
+        "runner",
+        "bar_stretcher",
+        "circular_stretcher",
+        "tabletop_connector"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "drawer_base",
+      "label": "Drawer Base",
+      "gloss": "a table base that is composed of drawers and cabinets",
+      "parts": [
+        "drawer",
+        "cabinet_door",
+        "shelf",
+        "keyboard_tray",
+        "back_panel",
+        "vertical_side_panel",
+        "vertical_front_panel",
+        "vertical_divider_panel",
+        "base_side_panel",
+        "bottom_panel",
+        "leg",
+        "foot",
+        "caster",
+        "runner",
+        "bar_stretcher",
+        "circular_stretcher",
+        "tabletop_connector"
+      ],
+      "default_part_num": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "irregular_base",
+      "label": "Irregular Base",
+      "gloss": "a table base that is irregular shaped, possibly with strange looking supports",
+      "parts": [
+        "leg",
+        "foot",
+        "caster",
+        "shelf",
+        "bar_stretcher",
+        "circular_stretcher",
+        "runner",
+        "tabletop_connector"
+      ],
+      "default_part_num": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "bar_stretcher",
+      "label": "Bar Stretcher",
+      "gloss": "a supporting part joining the legs that is of bar/strip like shape"
+    },
+    {
+      "name": "circular_stretcher",
+      "label": "Circular Stretcher",
+      "gloss": "a supporting part joining the legs that is of circular shape"
+    },
+    {
+      "name": "runner",
+      "label": "Runner",
+      "gloss": "horizontal part that connects the end of legs and contacts the ground"
+    },
+    {
+      "name": "tabletop_connector",
+      "label": "Tabletop Connector",
+      "gloss": "a part that connects the table base to the tabletop"
+    },
+    {
+      "name": "star_leg_base",
+      "label": "Star-shape Leg Base",
+      "gloss": "a table base that includes a star-shape leg structure. Each leg of the star leg structure is near-horizontal to the ground plane.",
+      "parts": [
+        "central_support",
+        "star_leg_set",
+        "tabletop_connector"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "central_support",
+      "label": "Central Support",
+      "gloss": "a central supporting part that connects the tabletop and the table legs/pedestal bases.  Please annotate each central supports individually if there are many."
+    },
+    {
+      "name": "mechanical_control",
+      "label": "Mechanical Control",
+      "gloss": "a complex mechanical control part that is often used to lift the table central cylinder. Just label one holistic part for each control unit. There is no need to label the mechanical details. Please use the option other to label the part we do not include in the list.",
+      "parts": [
+          "lever",
+          "knob",
+          "button",
+          "mounting_plate"
+      ],
+      "default_part_num": [
+          1,
+          1,
+          0,
+          1
+      ]
+    },
+    {
+        "name": "knob",
+        "label": "Knob",
+        "gloss": "a round handle"
+    },
+    {
+        "name": "button",
+        "label": "Button",
+        "gloss": "an electrical switch operated by pressing"
+    },
+    {
+        "name": "mounting_plate",
+        "label": "Mounting Plane",
+        "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "lever",
+      "label": "Lever",
+      "gloss": "a rigid bar pivoted about a fulcrum"
+    },
+    {
+      "name": "pedestal_base",
+      "label": "Pedestal Base",
+      "gloss": "a table base that includes a big pedestal part that contacts with the ground",
+      "parts": [
+        "central_support",
+        "pedestal",
+        "tabletop_connector"
+      ],
+      "default_part_num": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "pedestal",
+      "label": "Pedestal",
+      "gloss": "a big chunk of geometry that contacts the ground to stablize the table"
+    },
+    {
+      "name": "short_leg",
+      "label": "Short Leg",
+      "gloss": "a very short leg that connects the table seat and the table foot/wheels"
+    },
+    {
+      "name": "star_leg_set",
+      "label": "Star-shape Leg Set",
+      "gloss": "a star shape structure that contains many legs and the correlated foots or casters",
+      "parts": [
+        "leg",
+        "foot",
+        "caster"
+      ],
+      "default_part_num": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "leg",
+      "label": "Leg",
+      "gloss": "one of the supports for a piece of furniture"
+    },
+    {
+      "name": "foot",
+      "label": "Foot",
+      "gloss": "a support resembling a pedal extremity"
+    },
+    {
+      "name": "caster",
+      "label": "Wheel Assembly",
+      "gloss": "a pivoting roller attached to the bottom of furniture or trucks or portable machines to make them movable",
+      "parts": [
+        "caster_yoke",
+        "caster_stem",
+        "caster_mounting_plate",
+        "wheel",
+        "brake"
+      ],
+      "default_part_num": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "name": "brake",
+      "label": "Brake",
+      "gloss": "a restraint used to slow or stop a vehicle"
+    },
+    {
+      "name": "caster_yoke",
+      "label": "Caster Yoke",
+      "gloss": "forked part for connecting wheel to mounting plate"
+    },
+    {
+      "name": "caster_stem",
+      "label": "Caster Stem",
+      "gloss": "post part of caster rig"
+    },
+    {
+      "name": "caster_mounting_plate",
+      "label": "Mounting Plate",
+      "gloss": "a sheet of metal or wood or glass or plastic"
+    },
+    {
+      "name": "wheel",
+      "label": "Wheel",
+      "gloss": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)"
+    }
+  ]
+}

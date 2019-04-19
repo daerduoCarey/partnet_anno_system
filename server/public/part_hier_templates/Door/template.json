@@ -1,0 +1,97 @@
+{
+  "root": "door_set",
+  "content": [
+    {
+      "name": "door_set",
+      "label": "Door Set",
+      "gloss": "a door and its outside frame",
+      "parts": [
+          "outside_frame",
+          "hinge",
+          "door"
+      ],
+      "default_part_num": [
+          0,
+          0,
+          1
+      ]
+    },
+    {
+      "name": "hinge",
+      "label": "Hinge",
+      "gloss": "a joint that holds two parts together so that one can swing relative to the other"
+    },
+    {
+        "name": "outside_frame",
+        "label": "Outside Frame",
+        "gloss": "a outside door frame that connects the door to the wall"
+    },
+    {
+        "name": "door",
+        "label": "Door",
+        "gloss": "a hinged, sliding, or revolving barrier at the entrance to a building, room, or vehicle, or in the framework of a cupboard",
+        "parts": [
+            "door_body",
+            "handle"
+        ],
+        "default_part_num": [
+            1,
+            1
+        ]
+    },
+    {
+        "name": "door_body",
+        "label": "Door Body",
+        "gloss": "Door Body, excluding the handle",
+        "parts": ["surface_board", "glass", "horizontal_bar", "vertical_bar", "slant_bar", "complex_decoration"],
+        "default_part_num": [1, 0, 0, 0, 0, 0]
+    },
+    {
+        "name": "surface_board",
+        "label": "Surface board",
+        "gloss": "a wood/steel/plastic made board of door"
+    },
+    {
+        "name": "horizontal_bar",
+        "label": "Horizontal Bar",
+        "gloss": "a bar-like part that is horizontal to the ground"
+    },
+    {
+        "name": "vertical_bar",
+        "label": "Vertical Bar",
+        "gloss": "a bar-like part that is vertical to the ground"
+    },
+    {
+        "name": "slant_bar",
+        "label": "Slant Bar",
+        "gloss": "a bar-like part that is 30-60 degree with respect to the ground"
+    },
+    {
+        "name": "complex_decoration",
+        "label": "Complex Decoration",
+        "gloss": "a irregular shape decorative part on the door"
+    },
+    {
+        "name": "glass",
+        "label": "Door Glass",
+        "gloss": "a glass part on the door"
+    },
+    {
+        "name": "handle",
+        "label": "Handle",
+        "gloss": "a handle that people can use to pull open and off a door",
+        "parts": ["fixed_part", "movable_part"],
+        "default_part_num": [1, 1]
+    },
+    {
+        "name": "fixed_part",
+        "label": "Door Handle Fixed Part",
+        "gloss": "the part of the door handle that is fixed on the door surface"
+    },
+    {
+        "name": "movable_part",
+        "label": "Door Handle Movable Part",
+        "gloss": "the part of the door handle that is movable/rotatable/switchable by human hand"
+    }
+  ]
+}
