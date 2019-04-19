@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+html,body{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    height:100%;
+    width:100%;
+    display: block;
+    overflow: hidden;
+}
+h3{
+    margin: 0px;
+    font-size: 20px;
+    color: red;
+}
+
+.main_row {
+    width: 100%;
+    height:100%;
+}
+
+.main_hier {
+    float: left;
+    width: 30%;
+    border-style: solid;
+    height: 100%;
+    overflow: scroll;
+}
+
+.main_qa {
+    float: left;
+    width: 70%;
+    border-style: solid;
+    height: 100%;
+    overflow: scroll;
+}
+
+#part_definition {
+    display: block; position: relative;
+}
+
+#tree_instance {
+    clear: both;
+    float: bottom;
+    height:80%;
+    display: block; position: relative;
+}
+
+/* optional Container STYLES */
+.chart { height: 600px; margin: 5px; width: 900px; }
+.Treant > .node {  }
+.Treant > p { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: bold; font-size: 12px; }
+.node-name { font-weight: bold;}
+
+.nodeExample1 {
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    width: 200px;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.nodeExample1 img {
+    margin-right:  10px;
+}

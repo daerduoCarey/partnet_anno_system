@@ -1,0 +1,56 @@
+doctype html
+html
+    head
+        title #{title}
+        link(rel='stylesheet', href='/css/style.css')
+    body
+        script(type='text/javascript' src='/client/js/validator.min.js')
+        script(type='text/javascript' src='/client/login.js')
+
+        h1 #{title}
+        p Welcome to #{title}
+
+        h2 Login
+        form(name="login", action="/user/login" onsubmit="return check_login()" method="post")
+            input(type="hidden")
+            table
+                tr
+                    td
+                        span.label Username
+                    td
+                        input(type="text", name="username")
+                tr
+                    td
+                        span.label Password
+                    td
+                        input(type="password", name="password")
+            input(type="submit", value="Login")
+            .txt_alert(id="login") #{login_alert_txt}
+
+
+        h2 Signup
+        form(name="signup", action="/user/signup" onsubmit="return check_signup()" method="post")
+            input(type="hidden", name="lang", value=lang)
+            table
+                tr
+                    td
+                        span.label Username
+                    td
+                        input(type="text", name="username")
+                tr
+                    td
+                        span.label Password
+                    td
+                        input(type="password", name="password")
+                tr
+                    td
+                        span.label Real Name
+                    td
+                        input(type="text", name="realname")
+                tr
+                    td
+                        span.label Email
+                    td
+                        input(type="text", name="email")
+            input(type="submit", value="Signup")
+            .txt_alert(id="signup") #{signup_alert_txt}

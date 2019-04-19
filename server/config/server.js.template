@@ -1,0 +1,25 @@
+var server = exports;
+
+// SET UP HERE!
+server.HOST = '[TODO: e.g. http://localhost]';
+server.PORT = '[TODO]';
+server.DB_HOST = "[TODO]";
+server.DB_USER = "[TODO]";
+server.DB_PASSWORD = "[TODO]";
+server.DB_NAME = "partnet_anno_system";
+server.CODE_DIR = "[TODO: path to the code directory]"
+
+// DO NOT CHANGE!
+server.DIR = server.CODE_DIR + "/storage/";
+server.DATA_DIR = 'data';
+server.ORI_PART_DIR = 'leaf_part_obj_normalized';
+server.DOWNLOAD_DIR = 'downloads';
+server.ANNO_DIR = 'annotations';
+server.REMESH_PART_DIR = 'remesh_parts';
+server.NEW_PART_DIR = 'new_parts';
+server.ANNO_RES_DIR = 'anno_results';
+server.PART_HIER_DIR = 'part_hier_templates';
+server.SCREENSHOT_DIR = 'screenshots';
+
+// set the maximum number of annotations per model
+server.MAX_NUM_ANNOS_PER_MODEL = 1;

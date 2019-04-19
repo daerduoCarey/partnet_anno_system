@@ -1,0 +1,42 @@
+doctype html
+html
+    head
+        title PartNet Annotation List Viewer
+        link(rel='stylesheet', href='/css/anno_list_viewer.css')
+        link(rel='stylesheet', href='/css/jquery.dataTables.min.css')
+        link(rel="stylesheet", href="/css/bootstrap.min.css",
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
+
+    body
+        script(type='text/javascript', src='/client/admin_list_viewer.js')
+        script(type='text/javascript', src='/client/js/jquery-3.3.1.min.js')
+
+        h1 PartNet Annotation List Viewer
+        
+        select(id="select_cat_name")
+        button(type="button" class="btn btn-primary" id="temp_add_part" onclick="gen_visu_list()") Refresh List
+        button(type="button" class="btn btn-danger" onclick="view_template()") View Template
+
+        h3
+            | Hello, <b>Admin</b>, here are the models in the dataset!
+            | You can view, modify and delete them!
+        br
+        br
+
+        table(id='myTable')
+            thead
+                tr
+                    th Anno Id
+                    th Anno Version
+                    th Model Id
+                    th Model Snapshot
+                    th View
+                    th Modify
+                    th Delete
+                    th Download
+            tbody
+
+        script(type='text/javascript', src='/js/jquery.dataTables.min.js')
+
+        script.
+            load_cat_names()

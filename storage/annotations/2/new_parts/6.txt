@@ -1,0 +1,1 @@
+/data/public_git_repos/partnet_anno_system//storage//annotations/2/new_parts/3.json

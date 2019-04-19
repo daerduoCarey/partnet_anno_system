@@ -1,0 +1,2056 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "3dw.2e149e4f08f7cbdfed4d676215f46734-orig/Model",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Cross_Piece_2x4_1/Cross_Piece_2x4/mesh1/mesh1-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -59.5,
+        2,
+        12.75,
+        1
+      ],
+      "meshes": [
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cross_Piece_2x4_2/Cross_Piece_2x4/mesh1/mesh1-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -28.5,
+        2,
+        12.75,
+        1
+      ],
+      "meshes": [
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cross_Piece_2x4_3/Cross_Piece_2x4/mesh1/mesh1-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -13,
+        2,
+        12.75,
+        1
+      ],
+      "meshes": [
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cross_Piece_2x4_4/Cross_Piece_2x4/mesh1/mesh1-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -44,
+        2,
+        12.75,
+        1
+      ],
+      "meshes": [
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "name": "_2x4_Frame_Length1/_2x4_Frame_Length/mesh3/mesh3-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -120.5,
+        48,
+        12.75,
+        1
+      ],
+      "meshes": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "name": "_2x4_Frame_Length2/_2x4_Frame_Length/mesh3/mesh3-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -105,
+        48,
+        12.75,
+        1
+      ],
+      "meshes": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "name": "_2x4_Frame_Length3/_2x4_Frame_Length/mesh3/mesh3-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -89.5,
+        48,
+        12.75,
+        1
+      ],
+      "meshes": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "name": "_2x4_Frame_Length4/_2x4_Frame_Length/mesh3/mesh3-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -120.5,
+        -1.5,
+        12.75,
+        1
+      ],
+      "meshes": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "name": "_2x4_Frame_Length5/_2x4_Frame_Length/mesh3/mesh3-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -105,
+        -1.5,
+        12.75,
+        1
+      ],
+      "meshes": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "name": "_2x4_Frame_Length6/_2x4_Frame_Length/mesh3/mesh3-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -89.5,
+        -1.5,
+        12.75,
+        1
+      ],
+      "meshes": [
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "name": "_2x4_Frame_Length_1_1/_2x4_Frame_Length_1/mesh5/mesh5-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -74,
+        48,
+        12.75,
+        1
+      ],
+      "meshes": [
+        2
+      ]
+    },
+    {
+      "id": 12,
+      "name": "_2x4_Frame_Length_1_2/_2x4_Frame_Length_1/mesh5/mesh5-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -74,
+        -1.5,
+        12.75,
+        1
+      ],
+      "meshes": [
+        2
+      ]
+    },
+    {
+      "id": 13,
+      "name": "_2x4_Frame_Length_1_3/_2x4_Frame_Length_1/mesh5/mesh5-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -74,
+        10.875,
+        12.75,
+        1
+      ],
+      "meshes": [
+        2
+      ]
+    },
+    {
+      "id": 14,
+      "name": "_2x4_Frame_Length_1_4/_2x4_Frame_Length_1/mesh5/mesh5-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -74,
+        35.625,
+        12.75,
+        1
+      ],
+      "meshes": [
+        2
+      ]
+    },
+    {
+      "id": 15,
+      "name": "_2x4_Frame_Length_2_1/_2x4_Frame_Length_2/mesh7/mesh7-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        14.5,
+        -62.5,
+        12.75,
+        1
+      ],
+      "meshes": [
+        3
+      ]
+    },
+    {
+      "id": 16,
+      "name": "_2x4_Frame_Length_2_2/_2x4_Frame_Length_2/mesh7/mesh7-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        14.5,
+        -50.125,
+        12.75,
+        1
+      ],
+      "meshes": [
+        3
+      ]
+    },
+    {
+      "id": 17,
+      "name": "_2x4_Frame_Length_1_5/_2x4_Frame_Length_1/mesh5/mesh5-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -74,
+        23.25,
+        12.75,
+        1
+      ],
+      "meshes": [
+        2
+      ]
+    },
+    {
+      "id": 18,
+      "name": "_2x4_Frame_Length_2_3/_2x4_Frame_Length_2/mesh7/mesh7-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        14.5,
+        -25.375,
+        12.75,
+        1
+      ],
+      "meshes": [
+        3
+      ]
+    },
+    {
+      "id": 19,
+      "name": "_2x4_Frame_Length_2_4/_2x4_Frame_Length_2/mesh7/mesh7-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        14.5,
+        -37.75,
+        12.75,
+        1
+      ],
+      "meshes": [
+        3
+      ]
+    },
+    {
+      "id": 20,
+      "name": "_2x4_1_1/_2x4_1/mesh9/mesh9-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        -63,
+        38,
+        1.5,
+        1
+      ],
+      "meshes": [
+        4
+      ]
+    },
+    {
+      "id": 21,
+      "name": "_2x4_1_2/_2x4_1/mesh9/mesh9-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        -63,
+        13.5,
+        1.5,
+        1
+      ],
+      "meshes": [
+        4
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Cross_Piece_2x4_1_1_1/Cross_Piece_2x4_1_1/mesh11/mesh11-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        2,
+        12.75,
+        1
+      ],
+      "meshes": [
+        5
+      ]
+    },
+    {
+      "id": 23,
+      "name": "_2x4_2_1/_2x4_2/mesh13/mesh13-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        -63,
+        51.5,
+        14.25,
+        1
+      ],
+      "meshes": [
+        6
+      ]
+    },
+    {
+      "id": 24,
+      "name": "_2x4_2_2/_2x4_2/mesh13/mesh13-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        -63,
+        0,
+        14.25,
+        1
+      ],
+      "meshes": [
+        6
+      ]
+    },
+    {
+      "id": 25,
+      "name": "_2x4_2_3/_2x4_2/mesh13/mesh13-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        -63,
+        38,
+        14.25,
+        1
+      ],
+      "meshes": [
+        6
+      ]
+    },
+    {
+      "id": 26,
+      "name": "_2x4_2_4/_2x4_2/mesh13/mesh13-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        -63,
+        13.5,
+        14.25,
+        1
+      ],
+      "meshes": [
+        6
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Cross_Piece_2x4_1_2/Cross_Piece_2x4_1_1/mesh11/mesh11-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        2,
+        23,
+        1
+      ],
+      "meshes": [
+        5
+      ]
+    },
+    {
+      "id": 28,
+      "name": "_2x4_1_1_2/_2x4/mesh15/mesh15-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        12,
+        0,
+        1
+      ],
+      "meshes": [
+        7
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Mattress1/Mattress/mesh17/mesh17-geometry",
+      "transformation": [
+        1.0137929916381836,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.6499999761581421,
+        0,
+        -59,
+        -1.5,
+        16.140625,
+        1
+      ],
+      "meshes": [
+        8
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Long_Box_Base1/Long_Box_Base/mesh19/mesh19-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1.0246909856796265,
+        2.2752710508547357e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.75,
+        38.75,
+        0,
+        1
+      ],
+      "meshes": [
+        9
+      ]
+    },
+    {
+      "id": 31,
+      "name": "_1x8_Back_Piece_of_Base1/_1x8_Back_Piece_of_Base/mesh21/mesh21-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.75,
+        38,
+        0,
+        1
+      ],
+      "meshes": [
+        10
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Square_Divider1/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -13,
+        38.75,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Square_Divider2/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.75,
+        38.75,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Square_Divider3/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -62,
+        38.75,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Plywood_Base_2_1/Plywood_Base_2/mesh25/mesh25-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -26.64636993408203,
+        -1.5,
+        14.25,
+        1
+      ],
+      "meshes": [
+        12
+      ]
+    },
+    {
+      "id": 36,
+      "name": "_1x8_Back_Piece_of_Base2/_1x8_Back_Piece_of_Base/mesh21/mesh21-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        12,
+        0,
+        1
+      ],
+      "meshes": [
+        10
+      ]
+    },
+    {
+      "id": 37,
+      "name": "_1x6_Back_Piece1/_1x6_Back_Piece/mesh27/mesh27-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        12,
+        7.25,
+        1
+      ],
+      "meshes": [
+        13
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Long_Box_Base2/Long_Box_Base/mesh19/mesh19-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1.0246909856796265,
+        2.2752710508547357e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        11.25,
+        12,
+        1
+      ],
+      "meshes": [
+        9
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Long_Box_Base3/Long_Box_Base/mesh19/mesh19-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1.0246909856796265,
+        2.2752710508547357e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.75,
+        38.75,
+        12,
+        1
+      ],
+      "meshes": [
+        9
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Square_Divider4/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -37.5,
+        38.75,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Trim_3_1/Trim_3/mesh29/mesh29-geometry",
+      "transformation": [
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        14.876259803771973,
+        51.875,
+        12.75,
+        1
+      ],
+      "meshes": [
+        14
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Trim_4_1/Trim_4/mesh31/mesh31-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        2.220446049250313e-16,
+        0,
+        14.501259803771973,
+        -1.875,
+        12.75,
+        1
+      ],
+      "meshes": [
+        15
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Trim_2_1/Trim_2/mesh33/mesh33-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        2.220446049250313e-16,
+        0,
+        14.5,
+        51.5,
+        12.75,
+        1
+      ],
+      "meshes": [
+        16
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Trim_1_1/Trim_1/mesh35/mesh35-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        -63,
+        -1.875,
+        24.875,
+        1
+      ],
+      "meshes": [
+        17
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Square_Divider5/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -49.75,
+        38.75,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Square_Divider6/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        11.25,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Long_Box_Base4/Long_Box_Base/mesh19/mesh19-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1.0246909856796265,
+        2.2752710508547357e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        11.25,
+        0,
+        1
+      ],
+      "meshes": [
+        9
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Square_Divider7/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1.75,
+        11.25,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Square_Divider8/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -25.25,
+        38.75,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Square_Divider9/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -14,
+        11.25,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Square_Divider10/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -50.75,
+        11.25,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Square_Divider11/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -38.5,
+        11.25,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Square_Divider12/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -26.25,
+        11.25,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 54,
+      "name": "_1x6_Back_Piece2/_1x6_Back_Piece/mesh27/mesh27-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.75,
+        38,
+        7.25,
+        1
+      ],
+      "meshes": [
+        13
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Square_Divider13/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        12.25,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Square_Divider14/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Plywood_Base1/Plywood_Base/mesh37/mesh37-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -59.5,
+        -1.5,
+        14.25,
+        1
+      ],
+      "meshes": [
+        18
+      ]
+    },
+    {
+      "id": 58,
+      "name": "_1x8_Back_Piece_of_Base3/_1x8_Back_Piece_of_Base/mesh21/mesh21-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.8032130002975464,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.75,
+        0,
+        0,
+        1
+      ],
+      "meshes": [
+        10
+      ]
+    },
+    {
+      "id": 59,
+      "name": "_1x6_Back_Piece3/_1x6_Back_Piece/mesh27/mesh27-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.8032130002975464,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.75,
+        0,
+        7.25,
+        1
+      ],
+      "meshes": [
+        13
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Long_Box_Base5/Long_Box_Base/mesh19/mesh19-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.823045015335083,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "meshes": [
+        9
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Long_Box_Base6/Long_Box_Base/mesh19/mesh19-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.823045015335083,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        12,
+        1
+      ],
+      "meshes": [
+        9
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Square_Divider15/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        49,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Square_Divider16/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        36.75,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Square_Divider17/Square_Divider/mesh23/mesh23-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        24.5,
+        0.75,
+        1
+      ],
+      "meshes": [
+        11
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Trim1/Trim/mesh39/mesh39-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        -1.875,
+        12.75,
+        1
+      ],
+      "meshes": [
+        19
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Trim2/Trim/mesh39/mesh39-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        51.5,
+        12.75,
+        1
+      ],
+      "meshes": [
+        19
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Plywood_Base_1_1/Plywood_Base_1/mesh41/mesh41-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        2.220446049250313e-16,
+        0,
+        -59.5,
+        -1.625,
+        14.75,
+        1
+      ],
+      "meshes": [
+        20
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Trim_5_1/Trim_5/mesh43/mesh43-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        51.5,
+        24.875,
+        1
+      ],
+      "meshes": [
+        21
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Trim3/Trim/mesh39/mesh39-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        38.15625,
+        24.875,
+        1
+      ],
+      "meshes": [
+        19
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Trim4/Trim/mesh39/mesh39-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        24.8125,
+        24.875,
+        1
+      ],
+      "meshes": [
+        19
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Trim5/Trim/mesh39/mesh39-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        11.46875,
+        24.875,
+        1
+      ],
+      "meshes": [
+        19
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Trim6/Trim/mesh39/mesh39-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        -1.875,
+        24.875,
+        1
+      ],
+      "meshes": [
+        19
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Trim_1_2/Trim_1/mesh35/mesh35-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        -63,
+        -1.875,
+        37,
+        1
+      ],
+      "meshes": [
+        17
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Plywood_Base_3_1/Plywood_Base_3/mesh47/mesh47-geometry",
+      "transformation": [
+        2.220446049250313e-16,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        2.220446049250313e-16,
+        0,
+        -63,
+        -1.875,
+        27.25,
+        1
+      ],
+      "meshes": [
+        22
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Component_1_1/Component_1/mesh49/mesh49-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        38.53125,
+        30.5,
+        1
+      ],
+      "meshes": [
+        23
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Component_1_2/Component_1/mesh49/mesh49-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        25.1875,
+        30.5,
+        1
+      ],
+      "meshes": [
+        23
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Component_1_3/Component_1/mesh49/mesh49-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        11.84375,
+        30.5,
+        1
+      ],
+      "meshes": [
+        23
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Component_1_4/Component_1/mesh49/mesh49-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -63,
+        -1.5,
+        30.5,
+        1
+      ],
+      "meshes": [
+        23
+      ]
+    }
+  ]
+}

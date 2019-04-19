@@ -1,0 +1,52 @@
+doctype html
+html
+    head
+        title PartNet Annotator
+        link(rel='stylesheet', href='/client/css/ui.css')
+        link(rel='stylesheet', href='/client/css/font-awesome.min.css')
+        link(rel="stylesheet", href="/css/bootstrap.min.css")
+        link(rel="stylesheet", href="/client/css/star-rating.css")
+
+    body
+        script(type='text/javascript' src='/client/build/ShapeNetPP.bundle.js')
+        script(type='text/javascript' src='/client/js/jquery-3.3.1.min.js')
+        script(type='text/javascript' src='/client/js/bootstrap-treeview.js')
+        script(type="text/javascript" src="/client/js/dat.gui.min.js")
+        script(type="text/javascript" src="/client/js/star-rating.js")
+
+        datalist#wordnet_words
+
+        .main_row
+            .main_hier
+                div(id="timer") 00:00:00
+                button(type="button" class="btn btn-info" id="help" style="float:right" onclick="annotator.show_instruction()") Help
+                button(type="button" class="btn btn-warning" id="instance_save" style="float:right" onclick="annotator.part_hier_save()") Save
+                h3 Part Hierarchy
+                br
+                .txt_alert(id='prompt')
+                #tree_instance
+
+            .main_qa
+                h3 Annotation Workflow
+                #button_nav
+                    button(type="button" style="float:left" class="btn btn-primary" id="next_question" onclick="annotator.next_question()" disabled) Next Question (A)
+                    button(type="button" style="float:left" class="btn btn-info" id="edit_answer" onclick="annotator.question_edit_answer()" disabled) Edit Answer (E)
+                    button(type="button" style="float:left" class="btn btn-danger" id="clear_answer" onclick="annotator.question_clear_answer()" disabled) Clear Answer (Z)
+                #annotation_quiz
+                h3 Part Definition and Examples
+                #part_definition
+
+            .main_3d
+                h3(style="float:left; position:absolute;z-index:100;") 3D Interface
+                #main_3d_canvas
+                h3(style="float:left; position:absolute;z-index:100;") Model Screenshots
+                #model_screenshots
+
+        script.
+            var params = {
+                load_parent_anno: '#{load_parent_anno}',
+                allow_edit: '#{allow_edit}',
+                anno_id: '#{anno_id}',
+            };
+            var annotator = new PartAnnotator(params);
+            annotator.start();

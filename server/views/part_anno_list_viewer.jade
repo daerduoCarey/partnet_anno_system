@@ -1,0 +1,45 @@
+doctype html
+html
+    head
+        title PartNet Annotation List Viewer
+        link(rel='stylesheet', href='/css/anno_list_viewer.css')
+        link(rel='stylesheet', href='/css/jquery.dataTables.min.css')
+        link(rel="stylesheet", href="/css/bootstrap.min.css",
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
+
+    body
+        script(type='text/javascript', src='/client/part_anno_list_viewer.js')
+        script(type='text/javascript', src='/client/js/jquery-3.3.1.min.js')
+
+        h1 PartNet Annotation List Viewer
+        
+        select(id="select_cat_name")
+        button(type="button" class="btn btn-primary" id="temp_add_part" onclick="gen_visu_list('#{username}')") Refresh the list
+        button(type="button" class="btn btn-danger" onclick="view_template()") View Template
+        button(type="button" class="btn btn-warning" id="annotate_new_model" onclick="label_new_model('#{username}')") Annotate a New Model
+        button(type="button" class="btn btn-success" id="annotate_new_model_by_id" onclick="label_new_model_by_id('#{username}')") Annotate a New Model By ID
+
+        h3
+            | Hello, <b>#{username}</b>, here are the models that you have labeled!
+            | You can view, modify and delete them!
+        br
+        br
+
+        table(id='myTable')
+            thead
+                tr
+                    th Annotation Id
+                    th Annotation Version
+                    th Model Id
+                    th Model Snapshot
+                    th View
+                    th Modify
+                    th Delete
+            tbody
+
+        script(type='text/javascript', src='/js/jquery.dataTables.min.js')
+
+        script.
+            // Show the existing model list
+            load_cat_names();
+            gen_visu_list('#{username}');

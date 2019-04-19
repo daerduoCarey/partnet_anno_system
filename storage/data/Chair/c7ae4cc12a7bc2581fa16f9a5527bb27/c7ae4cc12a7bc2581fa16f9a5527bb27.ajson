@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "3dw.c7ae4cc12a7bc2581fa16f9a5527bb27-orig/Model",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 1,
+      "name": "mesh1/mesh1-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "meshes": [
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "mesh2/mesh2-geometry",
+      "transformation": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "meshes": [
+        1
+      ]
+    }
+  ]
+}
