@@ -24,7 +24,7 @@ Finally, compile the client-side javascript dependencies using `browserify` by r
         
         ./build.sh
         
-This will generate a `build/ShapeNetPP.bundle.js` that includes all node-js modules defined by `require`.
+This will generate a `build/PartNet.bundle.js` that includes all node-js modules defined by `require`.
 
 
 ### Usage
