@@ -13,6 +13,8 @@ Next, install `node.js` dependent modules as defined in `package.json`.
 
 We use MYSQL to store annotation meta-data. Please use Mysql version v5.7. See instruction from `https://www.digitalocean.com/community/tutorials/how-to-install-the-latest-mysql-on-ubuntu-16-04`.
 
+We use [this tool](https://github.com/hjwdzh/Manifold) to convert ShapeNet non-manifold meshes to watertight manifold meshes to perform the part cutting operation. Please install this tool and make a global-wise executable `model_fixer`. This executable is called by `python/process_remesh.py` script.
+
 ### Usage
 
 For MYSQL set up, check `mysql/create_table.sql`.
