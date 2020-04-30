@@ -14,7 +14,7 @@
     "easytimer.js": "^2.2.1",
     "form-data": "^2.3.2",
     "glslify": "^6.1.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-bar-rating": "^1.2.2",
     "node-dijkstra": "^2.5.0",
     "obj-mtl-loader": "^0.0.5",
