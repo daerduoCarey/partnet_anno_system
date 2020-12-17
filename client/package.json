@@ -7,7 +7,7 @@
     "babelify": "^8.0.0",
     "browserify-fs": "^1.0.0",
     "chosen-js": "^1.8.3",
-    "datatables.net": "^1.10.16",
+    "datatables.net": "^1.10.22",
     "datatables.net-bs4": "^1.10.16",
     "datatables.net-buttons": "^1.5.1",
     "datatables.net-buttons-bs4": "^1.5.1",
