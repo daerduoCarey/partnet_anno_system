@@ -13,7 +13,7 @@ Our 3D web-based GUI is build upon Node.js, Express.js and Three.js frameworks. 
 
 ## Paper and Dataset
 
-PartNet is accepted to CVPR 2019. See you at Long Beach, LA.
+PartNet is accepted to CVPR 2019. See you at Long Beach, CA.
 
 Our team: [Kaichun Mo](https://cs.stanford.edu/~kaichun), [Shilin Zhu](http://cseweb.ucsd.edu/~shz338/), [Angel X. Chang](https://angelxuanchang.github.io/), [Li Yi](https://cs.stanford.edu/~ericyi/), [Subarna Tripathi](https://subarnatripathi.github.io/), [Leonidas J. Guibas](https://geometry.stanford.edu/member/guibas/) and [Hao Su](http://cseweb.ucsd.edu/~haosu/) from Stanford, UCSD, SFU and Intel AI Lab.
 
