@@ -20,7 +20,7 @@
     "obj-mtl-loader": "^0.0.5",
     "please-wait": "0.0.5",
     "request": "^2.87.0",
-    "three": "^0.90.0",
+    "three": "^0.125.0",
     "three-orbit-controls": "^82.1.0",
     "uniq": "^1.0.1",
     "url": "^0.11.0",
