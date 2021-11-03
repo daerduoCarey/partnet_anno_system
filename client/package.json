@@ -24,7 +24,7 @@
     "three-orbit-controls": "^82.1.0",
     "uniq": "^1.0.1",
     "url": "^0.11.0",
-    "validator": "^9.4.1",
+    "validator": "^13.7.0",
     "vis": "^4.21.0"
   },
   "devDependencies": {},
