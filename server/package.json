@@ -21,7 +21,7 @@
     "request": "^2.87.0",
     "serve-favicon": "~2.4.5",
     "sleep": "^5.1.1",
-    "three": "^0.90.0",
+    "three": "^0.137.0",
     "video.js": "^7.0.3",
     "wordnetjs": "^0.3.0"
   }
